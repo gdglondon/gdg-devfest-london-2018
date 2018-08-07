@@ -143,6 +143,7 @@ const partnersActions = {
       email: data.email,
       fullName: data.firstFieldValue || '',
       companyName: data.secondFieldValue || '',
+      website: data.thirdFieldValue || '',
     };
 
     firebase.firestore().collection('potentialPartners')

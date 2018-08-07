@@ -101,95 +101,6 @@ const importPartners = () => {
     });
 };
 
-const importGallery = () => {
-  const gallery = data.gallery;
-  console.log('\tImporting gallery...');
-
-  const batch = firestore.batch();
-
-  Object.keys(gallery).forEach((docId) => {
-    batch.set(
-      firestore.collection('gallery').doc(`${docId}`.padStart(3, 0)),
-      {
-        url: gallery[docId],
-        order: docId,
-      },
-    );
-  });
-
-  return batch.commit()
-    .then(results => {
-      console.log('\tImported data for', results.length, 'images');
-      return results;
-    });
-};
-
-const importBlog = () => {
-  const blog = data.blog;
-  console.log('\tImporting blog...');
-
-  const batch = firestore.batch();
-
-  Object.keys(blog).forEach((docId) => {
-    batch.set(
-      firestore.collection('blog').doc(docId),
-      blog[docId],
-    );
-  });
-
-  return batch.commit()
-    .then(results => {
-      console.log('\tImported data for', results.length, 'blog posts');
-      return results;
-    });
-};
-
-const importVideos = () => {
-  const docs = data.videos;
-  console.log('\tImporting videos...');
-
-  const batch = firestore.batch();
-
-  Object.keys(docs).forEach((docId) => {
-    batch.set(
-      firestore.collection('videos').doc(`${docId}`.padStart(3, 0)),
-      {
-        ...docs[docId],
-        order: docId,
-      },
-    );
-  });
-
-  return batch.commit()
-    .then(results => {
-      console.log('\tImported data for', results.length, 'videos');
-      return results;
-    });
-};
-
-const importTickets = () => {
-  const docs = data.tickets;
-  console.log('\tImporting tickets...');
-
-  const batch = firestore.batch();
-
-  Object.keys(docs).forEach((docId) => {
-    batch.set(
-      firestore.collection('tickets').doc(`${docId}`.padStart(3, 0)),
-      {
-        ...docs[docId],
-        order: docId,
-      },
-    );
-  });
-
-  return batch.commit()
-    .then(results => {
-      console.log('\tImported data for', results.length, 'tickets');
-      return results;
-    });
-};
-
 const importSessions = () => {
   const docs = data.sessions;
   console.log('\tImporting sessions...');
@@ -234,35 +145,16 @@ const importSchedule = () => {
 };
 
 const importNotificationsConfig = async () => {
-  const notificationsConfig = data.notifications.config;
-  console.log('Migrating notifications config...');
-  const batch = firestore.batch();
-
-  batch.set(
-    firestore.collection('config').doc('notifications'),
-    notificationsConfig,
-  );
-
-  return batch.commit()
-    .then(results => {
-      console.log('\tImported data for notifications config');
-      return results;
-    });
 
 };
 
 initializeFirebase()
-  .then(() => importBlog())
-  .then(() => importGallery())
-  .then(() => importNotificationsConfig())
   .then(() => importPartners())
   .then(() => importPreviousSpeakers())
   .then(() => importSchedule())
   .then(() => importSessions())
   .then(() => importSpeakers())
   .then(() => importTeam())
-  .then(() => importTickets())
-  .then(() => importVideos())
 
   .then(() => {
     console.log('Finished');

@@ -163,7 +163,6 @@
             <div class="content" layout vertical flex-auto>
               <div class="ticket-price-wrapper">
                 <div class="price">[[ticket.currency]][[ticket.price]]</div>
-                <div class="discount">[[_getDiscount(ticket)]]</div>
               </div>
               <div class="type-description" layout vertical flex-auto center-justified>
                 <div class="ticket-dates" hidden$="[[!ticket.starts]]">[[ticket.starts]] - [[ticket.ends]]</div>
@@ -228,13 +227,6 @@
         if (tickets && tickets.length) {
           this.set('contentLoaderVisibility', true);
         }
-      }
-
-      _getDiscount(ticket) {
-        const maxPrice = this.tickets.find((ticket) => ticket.primary).price;
-        if (!ticket.regular || ticket.primary || ticket.soldOut || !maxPrice) return;
-        const discount = 100 - parseInt(ticket.price) * 100 / parseInt(maxPrice);
-        return ((discount) => `{$ ticketsBlock.save $}`)(discount);
       }
 
       _onTicketTap(e) {
