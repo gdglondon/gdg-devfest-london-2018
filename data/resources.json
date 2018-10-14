@@ -36,11 +36,11 @@
       "links": [
         {
           "name": "GDG London",
-          "url": "https://twitter.com/gdglondon/",
+          "url": "https://www.meetup.com/gdglondon",
           "newTab": true
         },
         {
-          "name": "Google Developers Group",
+          "name": "Google Developers",
           "url": "https://developers.google.com/",
           "newTab": true
         },
