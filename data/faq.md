@@ -14,7 +14,7 @@ During the conference attendees will be able to attend sessions and hands-on cod
   
 ## Registration
 
-To buy a ticket [follow the link]( https://www.eventbrite.co.uk/e/gdg-devfest-london-2018-tickets-50723931645), select required ticket type, fill in the required information and place your order. You'll receive an email with the ticket. Please don’t forget to download it on your device or print it, as it’s required for entrance.
+To get a ticket [follow the link]( https://www.eventbrite.co.uk/e/gdg-devfest-london-2018-tickets-50723931645), select required ticket type, fill in the required information and place your order. You'll receive an email with the ticket. Please don’t forget to download it on your device or print it, as it’s required for entrance.
 
 ### Registration Terms & Conditions
 
@@ -41,7 +41,7 @@ All presentations at GDG DevFest London will be in English.
 
 ### Badges & Badge Pick-up
 
-To expedite the check-in process, mMake sure to bring your ticket as we’ll need to verify it prior to assigning you your GDG DevFest London badge. If you don’t have proper identification, you won’t be able to receive a badge and won’t be admitted to the conference.
+To expedite the check-in process, make sure to bring your ticket as we’ll need to verify it prior to assigning you your GDG DevFest London badge. If you don’t have proper identification, you won’t be able to receive a badge and won’t be admitted to the conference.
 
 The session seats will be assigned on a first-come, first-served basis. So make sure to come in on time!
 
