@@ -1,6 +1,6 @@
 {
   "title": "GDG DevFest London 2018",
-  "description": "Be a hero. Be a GDG!",
+  "description": "UK's largest free community driven tech conference",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "December 1, 2018",
@@ -55,11 +55,6 @@
       "title": "Explore Past DevFests",
       "links": [
         {
-          "name": "DevFest London 2015",
-          "url": "http://devfest.gdg-london.com/",
-          "newTab": true
-        },
-        {
           "name": "DevFest London 2016",
           "url": "https://devfest-london-2016.firebaseapp.com/",
           "newTab": true
@@ -74,11 +69,6 @@
     {
       "title": "Event Resources",
       "links": [
-        {
-          "name": "Call for Papers",
-          "url": "https://sessionize.com/gdg-devfest-london-2018/",
-          "newTab": true
-        },
         {
           "name": "FAQs",
           "url": "/faq/",
@@ -98,7 +88,7 @@
         "link": "/schedule/"
       },
       "howItWas": {
-        "description": "The largest free community created tech conference in the UK.",
+        "description": "The largest free community driven tech conference in the UK.",
         "label": "See how it was in 2017",
         "youtubeId": "cgjrmA4_if8"
       }
@@ -240,7 +230,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "The largest free community created tech conference in the UK, carefully crafted for you by the Google Developer Group (GDG) community and Imperial College London! GDG London is a group of developers passionate about Google technologies with a strong focus on knowledge exchange and networking. Learn about Android, Web, Cloud, Machine Learning and more from world experts.",
+        "description": "The largest free community driven tech conference in the UK, carefully crafted for you by the Google Developer Group (GDG) community and Imperial College London! GDG London is a group of developers passionate about Google technologies with a strong focus on knowledge exchange and networking. Learn about Android, Web, Cloud, Machine Learning and more from world experts.",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"

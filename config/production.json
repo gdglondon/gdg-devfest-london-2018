@@ -1,15 +1,14 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.firebaseapp.com/",
-  "analytics": "UA-43643469-9",
+  "url": "https://devfest.gdg.london/2018",
+  "analytics": "UA-58997508-5",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
-    "authDomain": "hoverboard-master.firebaseapp.com",
-    "databaseURL": "https://hoverboard-master.firebaseio.com",
-    "projectId": "hoverboard-master",
-    "storageBucket": "hoverboard-master.appspot.com",
-    "messagingSenderId": "516409946568"
+    "apiKey": "AIzaSyC0AjHX4F7MaAt26wGWrLN8H-GOKMDh-Ag",
+    "authDomain": "gdg-devfest-london-2018.firebaseapp.com",
+    "databaseURL": "https://gdg-devfest-london-2018.firebaseio.com",
+    "projectId": "gdg-devfest-london-2018",
+    "messagingSenderId": "65750758859"
   },
-  "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw"
+  "googleMapApiKey": "AIzaSyAPcEs_cQQ-segGMZHPKe0D_e7IcFX2zF4"
 }
