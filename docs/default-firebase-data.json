@@ -1,15 +1,53 @@
 {
+  "gallery" : [
+    "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/DevFest17%2Fdf1.jpg?alt=media&token=92311af9-e435-457e-af3b-9756b5124953",
+    "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/DevFest17%2Fdf2.jpg?alt=media&token=ca00ee5a-6028-4966-bb0c-98dd2cb1dddd",
+    "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/DevFest17%2Fdf3.jpg?alt=media&token=7c0e671d-9767-48bd-9725-adaef6c300bd",
+    "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/DevFest17%2Fdf4.jpg?alt=media&token=81ce45b5-72ce-4dce-b4b4-ac2e0072f153",
+    "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/DevFest17%2Fdf5.jpg?alt=media&token=79434bb4-1e0c-4e26-819f-56b01674d0db",
+    "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/DevFest17%2Fdf6.jpg?alt=media&token=50bc0af5-51c8-4e3b-bbb3-674f4555fe11",
+    "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/DevFest17%2Fdf7.jpg?alt=media&token=42b1b088-8986-4d45-ab59-6fec06adba00",
+    "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/DevFest17%2Fdf8.jpg?alt=media&token=2dfc2325-0fbf-4a4a-9a3b-5ec8f7c86e5d"
+  ],
+  "notifications" : {
+    "config" : {
+      "icon" : "",
+      "timezone" : "+01:00"
+    },
+    "messages" : { },
+    "subscribers" : { },
+    "test" : { },
+    "users" : { }
+  },
   "partners" : [ {
     "logos" : [ {
-      "logoUrl": "../images/logos/google_developers.png",
-      "name": "Google Developers",
-      "url": "https://developers.google.com/"
+      "logoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/logos%2Fgdg_london.svg?alt=media&token=48231eec-042f-40a5-9d9c-9778ed7d3295",
+      "name": "GDG London",
+      "url": "https://www.meetup.com/gdglondon"
     }, {
-      "logoUrl": "../images/logos/imperial.png",
+      "logoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/logos%2Fimperial.png?alt=media&token=4bbf78f9-b051-4cb7-b557-02f2a5731c93",
       "name": "Imperial College",
       "url": "https://www.imperial.ac.uk/"
     } ],
-    "title" : "Main Partners"
+    "title" : "Organizers"
+  }, {
+    "logos" : [ {
+      "logoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/logos%2Fgoogle_developers.png?alt=media&token=a2339e8e-0a96-40b8-9d2f-7123dc8d895e",
+      "name": "Google Developers",
+      "url": "https://developers.google.com/"
+    } ],
+    "title" : "Main Partner"
+  }, {
+    "logos" : [ {
+      "logoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/logos%2Fgdg_cloud_london.png?alt=media&token=aa646562-8dd8-45b0-ade5-ad12e36dbf74",
+      "name": "GDG Cloud London",
+      "url": "https://www.meetup.com/gdgcloud/"
+    }, {
+      "logoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/logos%2Flondroid.png?alt=media&token=7e9410a1-8b70-406d-806a-39ceb7175b64",
+      "name": "Londroid",
+      "url": "https://www.meetup.com/android"
+    } ],
+    "title" : "Community Partners"
   } ],
   "schedule" : {
     "2016-09-09" : {
@@ -1330,7 +1368,7 @@
       "members": [
         {
           "name": "Aygul Zagidullina",
-          "photoUrl": "/images/people/aygul.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/people%2Faygul.jpg?alt=media&token=6966f19e-6f72-49f5-8292-0b28b72b74f7",
           "socials": [
             {
               "icon": "website",
@@ -1356,7 +1394,7 @@
         },
         {
           "name": "Kaan Mamikoglu",
-          "photoUrl": "/images/people/kaan.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/people%2Fkaan.jpg?alt=media&token=435559b2-264f-4de3-a3c7-9795d5724cf6",
           "socials": [
             {
               "icon": "website",
@@ -1382,7 +1420,7 @@
         },
         {
           "name": "Gen Ashley",
-          "photoUrl": "/images/people/gen.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/people%2Fgen.jpg?alt=media&token=45d8a532-4667-42ce-889e-1a3388022b0d",
           "socials": [
             {
               "icon": "twitter",
@@ -1393,18 +1431,28 @@
         },
         {
           "name": "Busra Deniz",
-          "photoUrl": "/images/people/busra.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/people%2Fbusra.jpg?alt=media&token=4d940106-991a-41ef-8e07-2a754acf2412",
           "socials": [
             {
               "icon": "twitter",
               "link": "https://twitter.com/busradeniz",
               "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/busradeniz",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "website",
+              "link": "http://busradeniz.com",
+              "name": "Website"
             }
           ]
         },
         {
           "name": "Rupert Whitehead",
-          "photoUrl": "/images/people/rupert_whitehead.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/people%2Frupert_whitehead.jpg?alt=media&token=1d9a852d-154c-42ac-8650-e592816f3348",
           "socials": [
             {
               "icon": "twitter",
@@ -1414,19 +1462,8 @@
           ]
         },
         {
-          "name": "Tom Bower",
-          "photoUrl": "/images/people/tom.jpg",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/boweruk",
-              "name": "Twitter"
-            }
-          ]
-        },
-        {
           "name": "Amanda Cavallaro",
-          "photoUrl": "/images/people/amanda_cavallaro.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/people%2Famanda_cavallaro.jpg?alt=media&token=fc2f557c-2190-4ca6-976e-397a56cea3be",
           "socials": [
             {
               "icon": "website",
@@ -1434,11 +1471,43 @@
               "name": "Website"
             }
           ]
+        },
+        {
+          "name": "Tom Bower",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/people%2Ftom_bower.jpg?alt=media&token=4ae2204e-cef7-4c60-b023-2b5525aa16ae",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/boweruk",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/thomasabower/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/ThomasBower",
+              "name": "GitHub"
+            }
+          ]
         }
       ],
       "title": "Core Team"
     }
   ],
+  "tickets" : [ {
+    "available" : false,
+    "currency" : "",
+    "ends" : "Dec 1",
+    "info" : "",
+    "name" : "General Admission",
+    "price" : "FREE",
+    "soldOut" : false,
+    "starts" : "August 31",
+    "url" : "https://gdg-devfest-london-2018.eventbrite.co.uk"
+  } ],
   "triggers" : {
     "images" : false
   },

@@ -64,7 +64,7 @@ const importTeam = () => {
         firestore.collection('team').doc(`${teamId}`).collection('members').doc(`${id}`),
         member,
       );
-    })
+    });
   });
 
   return batch.commit()
@@ -82,8 +82,8 @@ const importPartners = () => {
 
   Object.keys(partners).forEach((docId) => {
     batch.set(
-        firestore.collection('partners').doc(docId),
-        { title: partners[docId].title },
+      firestore.collection('partners').doc(docId),
+      { title: partners[docId].title },
     );
 
     partners[docId].logos.forEach((item, id) => {
@@ -91,12 +91,58 @@ const importPartners = () => {
         firestore.collection('partners').doc(`${docId}`).collection('items').doc(`${id}`.padStart(3, 0)),
         item,
       );
-    })
+    });
   });
 
   return batch.commit()
     .then(results => {
       console.log('\tImported data for', results.length, 'documents');
+      return results;
+    });
+};
+
+const importGallery = () => {
+  const gallery = data.gallery;
+  console.log('\tImporting gallery...');
+
+  const batch = firestore.batch();
+
+  Object.keys(gallery).forEach((docId) => {
+    batch.set(
+      firestore.collection('gallery').doc(`${docId}`.padStart(3, 0)),
+      {
+        url: gallery[docId],
+        order: docId,
+      },
+    );
+  });
+
+  return batch.commit()
+    .then(results => {
+      console.log('\tImported data for', results.length, 'images');
+      return results;
+    });
+};
+
+const importTickets = () => {
+  const docs = data.tickets;
+  console.log('\tImporting tickets...');
+
+  const batch = firestore.batch();
+
+  Object.keys(docs).forEach((docId) => {
+    batch.set(
+      firestore.collection('tickets').doc(`${docId}`.padStart(3, 0)),
+      {
+        ...docs[docId],
+        order: docId,
+      },
+    );
+  });
+
+  return batch.commit()
+    .then(results => {
+      console.log('\tImported data for', results.length, 'tickets');
       return results;
     });
 };
@@ -131,8 +177,8 @@ const importSchedule = () => {
     batch.set(
       firestore.collection('schedule').doc(docId),
       {
-          ...docs[docId],
-          date: docId,
+        ...docs[docId],
+        date: docId,
       },
     );
   });
@@ -145,16 +191,33 @@ const importSchedule = () => {
 };
 
 const importNotificationsConfig = async () => {
+  const notificationsConfig = data.notifications.config;
+  console.log('Migrating notifications config...');
+  const batch = firestore.batch();
+
+  batch.set(
+    firestore.collection('config').doc('notifications'),
+    notificationsConfig,
+  );
+
+  return batch.commit()
+    .then(results => {
+      console.log('\tImported data for notifications config');
+      return results;
+    });
 
 };
 
 initializeFirebase()
+  .then(() => importGallery())
+  .then(() => importNotificationsConfig())
   .then(() => importPartners())
   .then(() => importPreviousSpeakers())
   .then(() => importSchedule())
   .then(() => importSessions())
   .then(() => importSpeakers())
   .then(() => importTeam())
+  .then(() => importTickets())
 
   .then(() => {
     console.log('Finished');
