@@ -1,0 +1,2343 @@
+[
+  {
+    "date": "2018-12-01T00:00:00",
+    "rooms": [
+      {
+        "id": 2124,
+        "name": "Cloud and ML Track",
+        "sessions": [
+          {
+            "id": "0b710f5e-4c69-49fa-b49f-5a79e430d361",
+            "title": "Welcome to the Cloud and Machine Learning Track",
+            "description": "The official start of the conference. Greetings from the organizers.",
+            "startsAt": "2018-12-01T10:00:00",
+            "endsAt": "2018-12-01T10:10:00",
+            "isServiceSession": true,
+            "isPlenumSession": false,
+            "speakers": [],
+            "categories": [],
+            "roomId": 2124,
+            "room": "Cloud and ML Track"
+          },
+          {
+            "id": "68227",
+            "title": "Go “serverless” with Cloud Functions for Firebase",
+            "description": "Firebase makes it incredibly easy to write, deploy, and scale a serverless backend, written in TypeScript, for your app.  In this session, you’ll get to experience that using nothing more than a code editor and the Firebase CLI.  You’ll see the implementation of a REST API with HTTP triggers, and the augmentation of an existing app with database triggers.\r\n",
+            "startsAt": "2018-12-01T10:10:00",
+            "endsAt": "2018-12-01T10:40:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "918a46f2-7e34-41b6-8337-56703cb18e82",
+                "name": "Doug Stevenson"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12204,
+                    "name": "Cloud & Machine Learning"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12292,
+                    "name": "Introductory / Overview"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12345,
+                    "name": "Firebase"
+                  },
+                  {
+                    "id": 12342,
+                    "name": "Cloud"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2124,
+            "room": "Cloud and ML Track"
+          },
+          {
+            "id": "d2126cdd-330a-4e04-92f5-4900460c68fe",
+            "title": "Lunch",
+            "description": null,
+            "startsAt": "2018-12-01T12:00:00",
+            "endsAt": "2018-12-01T13:30:00",
+            "isServiceSession": true,
+            "isPlenumSession": true,
+            "speakers": [],
+            "categories": [],
+            "roomId": 2124,
+            "room": "Cloud and ML Track"
+          },
+          {
+            "id": "68664",
+            "title": "Scalable Machine  Learning  with  Kubeflow",
+            "description": "When  working  on  the  machine  learning  workflows  there  is  usually  a  need  for  more  computing  power  or  complex  architectures.  Kubeflow  was  created  for  data  scientists  wanting  to  take  advantage  of  distributed  environments  without  a  need  to  think  too  much  about  infrastructure.  This  allows  to  focus  on  building  and  training  the  models  instead  of  operation  aspect.In  this  talk,  Barbara  will  discuss  the  capabilities  of  Kubeflow  from  the  data  scientist  perspective:  -Building  the  TensorFlow  models  and  containerising  it  -Using  distributed  architectures  when  performing  the  training  -Working  with  Jupyter  notebooks  -Serving  the  model  \r\nThe  presentation  will  introduce  how  you  can  use  the  platform  to  build  the  models  and  deploy  it  to  fit  the  computation  environment.  After  the  talk  the  audience  will  know  how  to  start  their  adventure  when  creating,  training  and  publishing  the  models  using  the  advantages  of  distributed  architectures.  ",
+            "startsAt": "2018-12-01T13:30:00",
+            "endsAt": "2018-12-01T14:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "0605c01a-b681-4c54-ae02-6827d414b954",
+                "name": "Barbara Fusinska"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12204,
+                    "name": "Cloud & Machine Learning"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12140,
+                    "name": "Intermediate"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12343,
+                    "name": "Machine Learning"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2124,
+            "room": "Cloud and ML Track"
+          },
+          {
+            "id": "67856",
+            "title": "TensorLayer: A Versatile Deep Learning Library for Developers and Scientists",
+            "description": "TensorLayer is a popular open-source TensorFlow-based deep learning and reinforcement library incubated by researchers from Imperial College London. It provides rich neural layers, pre-trained neural networks, data processing, model management and distributed training to facilitate the development of a wide spectrum of deep learning algorithms. TensorLayer has a transparent and flexible programming model, and thus suitable to customise deep neural networks for deployment and research purposes. It exhibits superior performance due to the low-cost integration with the TensorFlow backend. TensorLayer is easy to learn by providing massive tutorials, examples and real-world application codes. Since open-sourced in 2017, it has attracted more than 100,000 downloads, 4000 stars on Github, and 70 contributors around the world. TensorLayer is recently awarded the 2017 best open-source software by the prestigious ACM multimedia community.",
+            "startsAt": "2018-12-01T14:10:00",
+            "endsAt": "2018-12-01T14:40:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "6444498e-0836-4c73-bfe4-8db8df5946ea",
+                "name": "Luo Mai"
+              },
+              {
+                "id": "463231ad-5d0c-4516-a614-d4dc638c991d",
+                "name": "Jingqing Zhang"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12204,
+                    "name": "Cloud & Machine Learning"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12140,
+                    "name": "Intermediate"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12343,
+                    "name": "Machine Learning"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2124,
+            "room": "Cloud and ML Track"
+          }
+        ],
+        "hasOnlyPlenumSessions": false
+      },
+      {
+        "id": 2125,
+        "name": "Web Track",
+        "sessions": [
+          {
+            "id": "96ec1e73-d41d-4d3d-a7c4-d8c08181f0ce",
+            "title": "Welcome to the Web Track",
+            "description": "The official start of the conference. Greetings from the organizers.",
+            "startsAt": "2018-12-01T10:00:00",
+            "endsAt": "2018-12-01T10:10:00",
+            "isServiceSession": true,
+            "isPlenumSession": false,
+            "speakers": [],
+            "categories": [],
+            "roomId": 2125,
+            "room": "Web Track"
+          },
+          {
+            "id": "64250",
+            "title": "Web Accessibility? - Never heard.",
+            "description": "The internet is arguably the most powerful resource known to mankind. Of course, it isn’t perfect, but we can fix many of its flaws, like lack of accessibility. Not everyone can take full advantage of the internet, and that’s a problem. Sadly, not all websites are optimized for the kinds of visitors who has weak vision or who are blind or who are physically disabled. We all need to speak up for accessibility and start taking action.\r\nAt this talk we will see how small and simple improvements to your website can significantly make it more accessible, so as make it more effective.\r\n",
+            "startsAt": "2018-12-01T10:10:00",
+            "endsAt": "2018-12-01T10:40:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "c6bd52ea-8735-443a-93de-beba41e3ca02",
+                "name": "Sofiya Huts"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12203,
+                    "name": "Web"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12292,
+                    "name": "Introductory / Overview"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12341,
+                    "name": "Web"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2125,
+            "room": "Web Track"
+          },
+          {
+            "id": "66811",
+            "title": "Designing for speed and hacking users perception",
+            "description": "Humans perceive things much slower than reality, and 30% of users still think a site is slow even when it is technically fast. In this talk, I will go through research completed at Google regarding speed and users perception and how we can hack that to make sites and apps feel faster.",
+            "startsAt": "2018-12-01T10:50:00",
+            "endsAt": "2018-12-01T11:20:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "5ab174f8-77bf-4bdb-a7af-cb1a4532c136",
+                "name": "Mustafa Kurtuldu"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12203,
+                    "name": "Web"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12292,
+                    "name": "Introductory / Overview"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12341,
+                    "name": "Web"
+                  },
+                  {
+                    "id": 12348,
+                    "name": "UI/UX"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2125,
+            "room": "Web Track"
+          },
+          {
+            "id": "64617",
+            "title": "Improving User Experience With Web Workers",
+            "description": "Web browsers use single threaded JavaScript to perform tasks; business logic, layout, reflows, and garbage collection. This means complex and heavy JavaScript functions can block the main thread from rendering. This results in low frame rates and low interactivity for things like scrolling and input, providing a poor user experience. In this talk James will explore the idea of using Web Workers to free the main thread for rendering for performant and smooth web applications. ",
+            "startsAt": "2018-12-01T13:30:00",
+            "endsAt": "2018-12-01T14:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "9b5522a9-6406-42a8-a712-aa6de4a8a031",
+                "name": "James Milner"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12203,
+                    "name": "Web"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12140,
+                    "name": "Intermediate"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12341,
+                    "name": "Web"
+                  },
+                  {
+                    "id": 12348,
+                    "name": "UI/UX"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2125,
+            "room": "Web Track"
+          },
+          {
+            "id": "64276",
+            "title": "Building your own Google Keep clone powered by Firebase",
+            "description": "Join me on an adventure cloning the famous Google Keep app taking advantage of Angular v6 and Firebase features.\r\nFollowing this talk, you will learn Angular CLI tips, Angular Best Practices including TypeScript and Modern JavaScript, Material Design for the UI components, AngularFire, and tons of Firebase awesomeness.\r\n\r\nIn a nutshell, it will cover:\r\n🔒 Authentication with Google\r\n✏️ Notes management using Firestore\r\n🎈 Activity using the Realtime Database\r\n🌈 Cloud Functions for advanced techniques including image thumbnails and sub-collections removal\r\n🖼️ Cloud Storage for the built-in gallery section inside of each note\r\n🌩️ Cloud Messaging to send push notifications when a new collaborator is added to a note\r\n🌟 And of course, Firebase Hosting which provides a fast and secure web hosting\r\n\r\nDid I mention it is a Progressive Web App? 🚀",
+            "startsAt": "2018-12-01T14:10:00",
+            "endsAt": "2018-12-01T14:40:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "388bc8cc-a97f-44b9-bb2c-32d6cc6a407f",
+                "name": "Juarez Filho"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12203,
+                    "name": "Web"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12140,
+                    "name": "Intermediate"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12345,
+                    "name": "Firebase"
+                  },
+                  {
+                    "id": 12342,
+                    "name": "Cloud"
+                  },
+                  {
+                    "id": 12341,
+                    "name": "Web"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2125,
+            "room": "Web Track"
+          }
+        ],
+        "hasOnlyPlenumSessions": false
+      },
+      {
+        "id": 2126,
+        "name": "Mobile Track",
+        "sessions": [
+          {
+            "id": "a71e39de-3815-4a6d-a652-9433802b73a3",
+            "title": "Welcome to the Mobile Track",
+            "description": "The official start of the conference. Greetings from the organizers.",
+            "startsAt": "2018-12-01T10:00:00",
+            "endsAt": "2018-12-01T10:10:00",
+            "isServiceSession": true,
+            "isPlenumSession": false,
+            "speakers": [],
+            "categories": [],
+            "roomId": 2126,
+            "room": "Mobile Track"
+          },
+          {
+            "id": "67644",
+            "title": "wow. very vector. such love",
+            "description": "Mark has a deep love of VectorDrawable. He has spoken at conferences about how to construct and Animate them in his talk entitled “Vector All The Things”.\r\n\r\nIn this talk, Mark will look at some of the features which have been added to VectorDrawable and its sibling AnimatedVectorDrawable since they first appeared in Android Lollipop 5.0 (API 21). There will be a dive in to fill windings which can cause some baffling rendering oddities, yet can be quite simple to fix once you recognise that fill windings are the cause; There will also be a look at the recently added gradient support; And, of course, there will be plenty of tricks and tips to help with your creation of fabulous VectorDrawables, and amazing Animations.",
+            "startsAt": "2018-12-01T10:10:00",
+            "endsAt": "2018-12-01T10:40:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "89c328f9-4df6-41f7-a534-be96ecd67948",
+                "name": "Mark Allison"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12202,
+                    "name": "Mobile"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12140,
+                    "name": "Intermediate"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12340,
+                    "name": "Android"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2126,
+            "room": "Mobile Track"
+          },
+          {
+            "id": "67270",
+            "title": "Flutter & Firebase - a match made in heaven?",
+            "description": "Over the last couple of years, the new cross-platform framework, Flutter, has started to become more well known. Flutter is Google's own mobile SDK for building mobile applications. A big advantage of this ownership by Google is the ability for other Google technologies to integrate seamlessly, most notably, Firebase. \r\n\r\nIn this talk, I will first show what Flutter is, and why it's fast becoming one of the more popular cross-platform solutions. Then, we will explore the simplicity of using Firebase as your backend for your Flutter apps, and how quickly you can get a fully functioning app on both Android & iOS running in a flash, with features such as push notifications, crash reports and data storage.\r\n\r\nBy the end of this talk, you should be more knowledgeable on the benefits of using Flutter, and where you might be able to use it, along with Firebase, in your own work. \r\n",
+            "startsAt": "2018-12-01T11:30:00",
+            "endsAt": "2018-12-01T12:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "715d0e2a-665f-457c-88f1-72429cd1cf23",
+                "name": "Niamh Power"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12202,
+                    "name": "Mobile"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12292,
+                    "name": "Introductory / Overview"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12340,
+                    "name": "Android"
+                  },
+                  {
+                    "id": 12345,
+                    "name": "Firebase"
+                  },
+                  {
+                    "id": 12346,
+                    "name": "Flutter"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2126,
+            "room": "Mobile Track"
+          },
+          {
+            "id": "67626",
+            "title": "App signing by Google Play beyond Android App Bundles",
+            "description": "App signing by Google Play is often seen as a hefty price to pay to get all the advantages offered by Android App Bundles. You want the smaller APKs for your user and the support for dynamic modules that Android App Bundles offers, but the main concern is that you lose control of your signing keys to Google!\r\n\r\nIn this talk I’m going to explain what problem app signing by Google Play is solving, how it integrates in the Android App Bundle story and what are the gotchas and the edge cases that you need to consider when opting-in to app signing by Google Play.\r\n\r\nApp signing by Google Play is not just available for Android App Bundles. If you’re deploying APKs you can still benefit from this feature. You can improve the security of your releases maintaining all the control that you’ve today (and you’ll be ready to smoothly move to an Android App Bundles tomorrow)!\r\n",
+            "startsAt": "2018-12-01T13:30:00",
+            "endsAt": "2018-12-01T14:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "e5941ea5-5a10-45a0-903b-f642db802a16",
+                "name": "Pietro Maggi"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12202,
+                    "name": "Mobile"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12292,
+                    "name": "Introductory / Overview"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12340,
+                    "name": "Android"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2126,
+            "room": "Mobile Track"
+          },
+          {
+            "id": "66803",
+            "title": "Creating ML-powered applications",
+            "description": "Each day we are hearing yet another application that announces a new cool feature powered by machine learning. It’s pretty exciting but when the time comes to deep diving into machine learning, it can be intimidating, especially if you don’t have machine learning background.  \r\n\r\nIn this session, you will get the gist of newly announced MLKit & Tensorflow Lite. We'll be learning about MLKit features and creating custom Tensorflow model and using it in app via MLKit   ",
+            "startsAt": "2018-12-01T14:50:00",
+            "endsAt": "2018-12-01T15:20:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "c74ddde6-86e7-4b92-ad12-1a1428fb2eb9",
+                "name": "Buşra Deniz Akın"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12202,
+                    "name": "Mobile"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12292,
+                    "name": "Introductory / Overview"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12340,
+                    "name": "Android"
+                  },
+                  {
+                    "id": 12343,
+                    "name": "Machine Learning"
+                  },
+                  {
+                    "id": 12345,
+                    "name": "Firebase"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2126,
+            "room": "Mobile Track"
+          },
+          {
+            "id": "66192",
+            "title": "Kotlin DSL magic for Augmented Reality",
+            "description": "With ARCore and Sceneform we can easily create super cool augmented reality applications without passing through the OpenGL dark arts...but we can do more. Just with Kotlin DSL magic we can develop a clean and expressive way to add virtual elements to the reality canvas. In this talk you will learn how to create a Kotlin DSL to build Android AR apps fueled by ARCore and Sceneform. ",
+            "startsAt": "2018-12-01T15:30:00",
+            "endsAt": "2018-12-01T16:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "106dc281-fe8b-40ac-b16b-240832b27b47",
+                "name": "Giovanni Laquidara"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 12202,
+                    "name": "Mobile"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12140,
+                    "name": "Intermediate"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12340,
+                    "name": "Android"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2126,
+            "room": "Mobile Track"
+          }
+        ],
+        "hasOnlyPlenumSessions": false
+      },
+      {
+        "id": 2127,
+        "name": "Assistant Track",
+        "sessions": [
+          {
+            "id": "14ce6617-e819-4636-844a-103536c13200",
+            "title": "Welcome to the Assistant Track",
+            "description": "The official start of the conference. Greetings from the organizers.",
+            "startsAt": "2018-12-01T10:00:00",
+            "endsAt": "2018-12-01T10:10:00",
+            "isServiceSession": true,
+            "isPlenumSession": false,
+            "speakers": [],
+            "categories": [],
+            "roomId": 2127,
+            "room": "Assistant Track"
+          },
+          {
+            "id": "66475",
+            "title": "Talk to me:  The future of technology &  tips for Voice UX",
+            "description": "Voice Design is a probably the most exciting & promising fields of User experience today!  Conversational apps enables users an emotional, natural  connection with applications and brands. \r\nThe dream of talking freely to machines becomes a reality in the last few years. Conversational interfaces or assistants usage is growing and entering every household- Apple revealed people talk to Siri as a therapist and Amazon created “listen with Alexa” to reads bedtime stories to young kids. In the last year alone the user base of voice devices grew in 129% and experts predict that by 2020 82% of interfaces will be speech recognition based. How will this tech change affect our lives, our culture and the future of our kids? How could we create great Voice applications that engage users and clients with our brand and product.  \r\n\r\nDuring the talk we will discuss the future of voice technologies, whats special in this technology and how can we design awesome voice experiences.\r\n",
+            "startsAt": "2018-12-01T10:50:00",
+            "endsAt": "2018-12-01T11:20:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "ed5cdb60-eb09-49bc-af9c-a1df24e0c921",
+                "name": "Adi Mazor Kario"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 13765,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12292,
+                    "name": "Introductory / Overview"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12348,
+                    "name": "UI/UX"
+                  },
+                  {
+                    "id": 12347,
+                    "name": "Assistant"
+                  },
+                  {
+                    "id": 12343,
+                    "name": "Machine Learning"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2127,
+            "room": "Assistant Track"
+          },
+          {
+            "id": "67800",
+            "title": "Zero to App: Building for the Google Assistant Using Dialogflow and Firebase",
+            "description": "Actions on Google are an exciting way to interact with your users through the Google Assistant. They provide a conversational interface between you and your user, and they are simple to build. Not sure how to start developing your first Action on Google? In the first part of the talk, we’ll cover the voice user interface (VUI) design best practices and implementation using Dialogflow. In the second part of the talk, we’ll cover using Firebase for your Action on Google and focus on Cloud Functions, database solutions (Realtime Database, Cloud Firestore), and Firebase Storage. By the end of this session, you should have a better understanding of the Assistant service ecosystem and how to get started.",
+            "startsAt": "2018-12-01T11:30:00",
+            "endsAt": "2018-12-01T12:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "961f895c-9bed-41fa-b4d4-9615b451a186",
+                "name": "Aygul Zagidullina"
+              },
+              {
+                "id": "687de707-ffa6-4421-af42-f71b9f40bade",
+                "name": "Kaan Mamikoglu"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 13765,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12140,
+                    "name": "Intermediate"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12345,
+                    "name": "Firebase"
+                  },
+                  {
+                    "id": 12347,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2127,
+            "room": "Assistant Track"
+          },
+          {
+            "id": "68184",
+            "title": "Building conversational interfaces for Google Hangouts Chat bots and more with Google Dialogflow",
+            "description": "Bots don't have to be dumb, with Google Dialogflow you can apply a little AI to give your users a way to interact with your bot using conversational interfaces. In this talk I'll demonstrate how you can make a completely free Google Hangouts Chat bot that can interpret intent and extract parameters from conversations. As part of this I'll show you how you can use Dialogflow in Google Apps Script, a serverless JavaScript runtime for G Suite automation, extension, and integration. Combining Google Apps Script and Dialogflow also open up opportunities to add conversational interfaces beyond Google Hangouts Chat bots.",
+            "startsAt": "2018-12-01T13:30:00",
+            "endsAt": "2018-12-01T14:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "a0a3ba4d-611e-4ce3-964c-3c0137a97732",
+                "name": "Martin Hawksey"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 13765,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12292,
+                    "name": "Introductory / Overview"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12342,
+                    "name": "Cloud"
+                  },
+                  {
+                    "id": 12343,
+                    "name": "Machine Learning"
+                  },
+                  {
+                    "id": 12348,
+                    "name": "UI/UX"
+                  },
+                  {
+                    "id": 12341,
+                    "name": "Web"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2127,
+            "room": "Assistant Track"
+          },
+          {
+            "id": "68171",
+            "title": "Learning to play the guitar with Actions on Google",
+            "description": "Actions on Google is a fascinating platform that allows us to create conversational experiences. These experiences can cater for many use cases, allowing us to build conversation tools using both audio and visual means - allowing us to create interactions which are accessible to many users with different needs.\r\n\r\nIn this session, we’ll be exploring the Actions on Google platform, the components available to use in the Actions SDK and how we can use Dialogflow to learn how we can create a conversational guitar tutor for Google Actions.",
+            "startsAt": "2018-12-01T14:10:00",
+            "endsAt": "2018-12-01T14:40:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "22a0842d-51da-43e2-a5f2-b48893ae49f4",
+                "name": "Joe Birch"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 13765,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12292,
+                    "name": "Introductory / Overview"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12347,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2127,
+            "room": "Assistant Track"
+          },
+          {
+            "id": "67756",
+            "title": "Building assistive apps with App Actions",
+            "description": "In 2017, Google announced app predictions: 5 apps that are suggested to you on the App Drawer with a 60% prediction rate. This year, they are taking it to the next level: trying to predict the action that you are going to make at a specific time, depending on the context you're currently in and by analyzing your usage patterns based on machine learning algorithms that run locally on your phone. Those actions can be, for example, continue listening to Spotify if you plug in your headphones or call your best friend on friday nights. In this talk, I'll show how developers can take advantage of this concept by declaring the actions that your app does so Google can index it and suggest it to your users at the right time. I'll end by explaining that a building block of App Actions - Built-in Intents, can be then used to create a Conversational Action r the Google Assistant.",
+            "startsAt": "2018-12-01T14:50:00",
+            "endsAt": "2018-12-01T15:20:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "7c888e22-f254-4e04-aa56-1853ab18c000",
+                "name": "Elaine Dias Batista"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 13765,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12140,
+                    "name": "Intermediate"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12340,
+                    "name": "Android"
+                  },
+                  {
+                    "id": 12347,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2127,
+            "room": "Assistant Track"
+          },
+          {
+            "id": "67730",
+            "title": "The Assistant on Your Device",
+            "description": "There's a reason that more and more devices add a voice interface. With the Assitant SDK it's possible to use the Google Asssitant for this. \r\n\r\nIn this session you will learn about how to connect your device to the Google service, how the API is structured and how best to use it. One sample makes use of Android Things - but you can other embedded operating systems as well. And, finally, you can also add device specific actions tailored for your device. ",
+            "startsAt": "2018-12-01T15:30:00",
+            "endsAt": "2018-12-01T16:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "e44ff6d6-9784-4a3c-bd27-4594ac40b23c",
+                "name": "Wolfram Rittmeyer"
+              }
+            ],
+            "categories": [
+              {
+                "id": 2555,
+                "name": "Track",
+                "categoryItems": [
+                  {
+                    "id": 13765,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 2556,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 12140,
+                    "name": "Intermediate"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 2598,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 12347,
+                    "name": "Assistant"
+                  }
+                ],
+                "sort": 1004
+              }
+            ],
+            "roomId": 2127,
+            "room": "Assistant Track"
+          }
+        ],
+        "hasOnlyPlenumSessions": false
+      }
+    ],
+    "timeSlots": [
+      {
+        "slotStart": "10:00:00",
+        "rooms": [
+          {
+            "id": 2124,
+            "name": "Cloud and ML Track",
+            "session": {
+              "id": "0b710f5e-4c69-49fa-b49f-5a79e430d361",
+              "title": "Welcome to the Cloud and Machine Learning Track",
+              "description": "The official start of the conference. Greetings from the organizers.",
+              "startsAt": "2018-12-01T10:00:00",
+              "endsAt": "2018-12-01T10:10:00",
+              "isServiceSession": true,
+              "isPlenumSession": false,
+              "speakers": [],
+              "categories": [],
+              "roomId": 2124,
+              "room": "Cloud and ML Track"
+            },
+            "index": 0
+          },
+          {
+            "id": 2125,
+            "name": "Web Track",
+            "session": {
+              "id": "96ec1e73-d41d-4d3d-a7c4-d8c08181f0ce",
+              "title": "Welcome to the Web Track",
+              "description": "The official start of the conference. Greetings from the organizers.",
+              "startsAt": "2018-12-01T10:00:00",
+              "endsAt": "2018-12-01T10:10:00",
+              "isServiceSession": true,
+              "isPlenumSession": false,
+              "speakers": [],
+              "categories": [],
+              "roomId": 2125,
+              "room": "Web Track"
+            },
+            "index": 1
+          },
+          {
+            "id": 2126,
+            "name": "Mobile Track",
+            "session": {
+              "id": "a71e39de-3815-4a6d-a652-9433802b73a3",
+              "title": "Welcome to the Mobile Track",
+              "description": "The official start of the conference. Greetings from the organizers.",
+              "startsAt": "2018-12-01T10:00:00",
+              "endsAt": "2018-12-01T10:10:00",
+              "isServiceSession": true,
+              "isPlenumSession": false,
+              "speakers": [],
+              "categories": [],
+              "roomId": 2126,
+              "room": "Mobile Track"
+            },
+            "index": 2
+          },
+          {
+            "id": 2127,
+            "name": "Assistant Track",
+            "session": {
+              "id": "14ce6617-e819-4636-844a-103536c13200",
+              "title": "Welcome to the Assistant Track",
+              "description": "The official start of the conference. Greetings from the organizers.",
+              "startsAt": "2018-12-01T10:00:00",
+              "endsAt": "2018-12-01T10:10:00",
+              "isServiceSession": true,
+              "isPlenumSession": false,
+              "speakers": [],
+              "categories": [],
+              "roomId": 2127,
+              "room": "Assistant Track"
+            },
+            "index": 3
+          }
+        ]
+      },
+      {
+        "slotStart": "10:10:00",
+        "rooms": [
+          {
+            "id": 2124,
+            "name": "Cloud and ML Track",
+            "session": {
+              "id": "68227",
+              "title": "Go “serverless” with Cloud Functions for Firebase",
+              "description": "Firebase makes it incredibly easy to write, deploy, and scale a serverless backend, written in TypeScript, for your app.  In this session, you’ll get to experience that using nothing more than a code editor and the Firebase CLI.  You’ll see the implementation of a REST API with HTTP triggers, and the augmentation of an existing app with database triggers.\r\n",
+              "startsAt": "2018-12-01T10:10:00",
+              "endsAt": "2018-12-01T10:40:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "918a46f2-7e34-41b6-8337-56703cb18e82",
+                  "name": "Doug Stevenson"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12204,
+                      "name": "Cloud & Machine Learning"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12292,
+                      "name": "Introductory / Overview"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12345,
+                      "name": "Firebase"
+                    },
+                    {
+                      "id": 12342,
+                      "name": "Cloud"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2124,
+              "room": "Cloud and ML Track"
+            },
+            "index": 0
+          },
+          {
+            "id": 2125,
+            "name": "Web Track",
+            "session": {
+              "id": "64250",
+              "title": "Web Accessibility? - Never heard.",
+              "description": "The internet is arguably the most powerful resource known to mankind. Of course, it isn’t perfect, but we can fix many of its flaws, like lack of accessibility. Not everyone can take full advantage of the internet, and that’s a problem. Sadly, not all websites are optimized for the kinds of visitors who has weak vision or who are blind or who are physically disabled. We all need to speak up for accessibility and start taking action.\r\nAt this talk we will see how small and simple improvements to your website can significantly make it more accessible, so as make it more effective.\r\n",
+              "startsAt": "2018-12-01T10:10:00",
+              "endsAt": "2018-12-01T10:40:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "c6bd52ea-8735-443a-93de-beba41e3ca02",
+                  "name": "Sofiya Huts"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12203,
+                      "name": "Web"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12292,
+                      "name": "Introductory / Overview"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12341,
+                      "name": "Web"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2125,
+              "room": "Web Track"
+            },
+            "index": 1
+          },
+          {
+            "id": 2126,
+            "name": "Mobile Track",
+            "session": {
+              "id": "67644",
+              "title": "wow. very vector. such love",
+              "description": "Mark has a deep love of VectorDrawable. He has spoken at conferences about how to construct and Animate them in his talk entitled “Vector All The Things”.\r\n\r\nIn this talk, Mark will look at some of the features which have been added to VectorDrawable and its sibling AnimatedVectorDrawable since they first appeared in Android Lollipop 5.0 (API 21). There will be a dive in to fill windings which can cause some baffling rendering oddities, yet can be quite simple to fix once you recognise that fill windings are the cause; There will also be a look at the recently added gradient support; And, of course, there will be plenty of tricks and tips to help with your creation of fabulous VectorDrawables, and amazing Animations.",
+              "startsAt": "2018-12-01T10:10:00",
+              "endsAt": "2018-12-01T10:40:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "89c328f9-4df6-41f7-a534-be96ecd67948",
+                  "name": "Mark Allison"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12202,
+                      "name": "Mobile"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12140,
+                      "name": "Intermediate"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12340,
+                      "name": "Android"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2126,
+              "room": "Mobile Track"
+            },
+            "index": 2
+          }
+        ]
+      },
+      {
+        "slotStart": "10:50:00",
+        "rooms": [
+          {
+            "id": 2125,
+            "name": "Web Track",
+            "session": {
+              "id": "66811",
+              "title": "Designing for speed and hacking users perception",
+              "description": "Humans perceive things much slower than reality, and 30% of users still think a site is slow even when it is technically fast. In this talk, I will go through research completed at Google regarding speed and users perception and how we can hack that to make sites and apps feel faster.",
+              "startsAt": "2018-12-01T10:50:00",
+              "endsAt": "2018-12-01T11:20:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "5ab174f8-77bf-4bdb-a7af-cb1a4532c136",
+                  "name": "Mustafa Kurtuldu"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12203,
+                      "name": "Web"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12292,
+                      "name": "Introductory / Overview"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12341,
+                      "name": "Web"
+                    },
+                    {
+                      "id": 12348,
+                      "name": "UI/UX"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2125,
+              "room": "Web Track"
+            },
+            "index": 1
+          },
+          {
+            "id": 2127,
+            "name": "Assistant Track",
+            "session": {
+              "id": "66475",
+              "title": "Talk to me:  The future of technology &  tips for Voice UX",
+              "description": "Voice Design is a probably the most exciting & promising fields of User experience today!  Conversational apps enables users an emotional, natural  connection with applications and brands. \r\nThe dream of talking freely to machines becomes a reality in the last few years. Conversational interfaces or assistants usage is growing and entering every household- Apple revealed people talk to Siri as a therapist and Amazon created “listen with Alexa” to reads bedtime stories to young kids. In the last year alone the user base of voice devices grew in 129% and experts predict that by 2020 82% of interfaces will be speech recognition based. How will this tech change affect our lives, our culture and the future of our kids? How could we create great Voice applications that engage users and clients with our brand and product.  \r\n\r\nDuring the talk we will discuss the future of voice technologies, whats special in this technology and how can we design awesome voice experiences.\r\n",
+              "startsAt": "2018-12-01T10:50:00",
+              "endsAt": "2018-12-01T11:20:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "ed5cdb60-eb09-49bc-af9c-a1df24e0c921",
+                  "name": "Adi Mazor Kario"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 13765,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12292,
+                      "name": "Introductory / Overview"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12348,
+                      "name": "UI/UX"
+                    },
+                    {
+                      "id": 12347,
+                      "name": "Assistant"
+                    },
+                    {
+                      "id": 12343,
+                      "name": "Machine Learning"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2127,
+              "room": "Assistant Track"
+            },
+            "index": 3
+          }
+        ]
+      },
+      {
+        "slotStart": "11:30:00",
+        "rooms": [
+          {
+            "id": 2126,
+            "name": "Mobile Track",
+            "session": {
+              "id": "67270",
+              "title": "Flutter & Firebase - a match made in heaven?",
+              "description": "Over the last couple of years, the new cross-platform framework, Flutter, has started to become more well known. Flutter is Google's own mobile SDK for building mobile applications. A big advantage of this ownership by Google is the ability for other Google technologies to integrate seamlessly, most notably, Firebase. \r\n\r\nIn this talk, I will first show what Flutter is, and why it's fast becoming one of the more popular cross-platform solutions. Then, we will explore the simplicity of using Firebase as your backend for your Flutter apps, and how quickly you can get a fully functioning app on both Android & iOS running in a flash, with features such as push notifications, crash reports and data storage.\r\n\r\nBy the end of this talk, you should be more knowledgeable on the benefits of using Flutter, and where you might be able to use it, along with Firebase, in your own work. \r\n",
+              "startsAt": "2018-12-01T11:30:00",
+              "endsAt": "2018-12-01T12:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "715d0e2a-665f-457c-88f1-72429cd1cf23",
+                  "name": "Niamh Power"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12202,
+                      "name": "Mobile"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12292,
+                      "name": "Introductory / Overview"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12340,
+                      "name": "Android"
+                    },
+                    {
+                      "id": 12345,
+                      "name": "Firebase"
+                    },
+                    {
+                      "id": 12346,
+                      "name": "Flutter"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2126,
+              "room": "Mobile Track"
+            },
+            "index": 2
+          },
+          {
+            "id": 2127,
+            "name": "Assistant Track",
+            "session": {
+              "id": "67800",
+              "title": "Zero to App: Building for the Google Assistant Using Dialogflow and Firebase",
+              "description": "Actions on Google are an exciting way to interact with your users through the Google Assistant. They provide a conversational interface between you and your user, and they are simple to build. Not sure how to start developing your first Action on Google? In the first part of the talk, we’ll cover the voice user interface (VUI) design best practices and implementation using Dialogflow. In the second part of the talk, we’ll cover using Firebase for your Action on Google and focus on Cloud Functions, database solutions (Realtime Database, Cloud Firestore), and Firebase Storage. By the end of this session, you should have a better understanding of the Assistant service ecosystem and how to get started.",
+              "startsAt": "2018-12-01T11:30:00",
+              "endsAt": "2018-12-01T12:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "961f895c-9bed-41fa-b4d4-9615b451a186",
+                  "name": "Aygul Zagidullina"
+                },
+                {
+                  "id": "687de707-ffa6-4421-af42-f71b9f40bade",
+                  "name": "Kaan Mamikoglu"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 13765,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12140,
+                      "name": "Intermediate"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12345,
+                      "name": "Firebase"
+                    },
+                    {
+                      "id": 12347,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2127,
+              "room": "Assistant Track"
+            },
+            "index": 3
+          }
+        ]
+      },
+      {
+        "slotStart": "12:00:00",
+        "rooms": [
+          {
+            "id": 2124,
+            "name": "Cloud and ML Track",
+            "session": {
+              "id": "d2126cdd-330a-4e04-92f5-4900460c68fe",
+              "title": "Lunch",
+              "description": null,
+              "startsAt": "2018-12-01T12:00:00",
+              "endsAt": "2018-12-01T13:30:00",
+              "isServiceSession": true,
+              "isPlenumSession": true,
+              "speakers": [],
+              "categories": [],
+              "roomId": 2124,
+              "room": "Cloud and ML Track"
+            },
+            "index": 0
+          }
+        ]
+      },
+      {
+        "slotStart": "13:30:00",
+        "rooms": [
+          {
+            "id": 2124,
+            "name": "Cloud and ML Track",
+            "session": {
+              "id": "68664",
+              "title": "Scalable Machine  Learning  with  Kubeflow",
+              "description": "When  working  on  the  machine  learning  workflows  there  is  usually  a  need  for  more  computing  power  or  complex  architectures.  Kubeflow  was  created  for  data  scientists  wanting  to  take  advantage  of  distributed  environments  without  a  need  to  think  too  much  about  infrastructure.  This  allows  to  focus  on  building  and  training  the  models  instead  of  operation  aspect.In  this  talk,  Barbara  will  discuss  the  capabilities  of  Kubeflow  from  the  data  scientist  perspective:  -Building  the  TensorFlow  models  and  containerising  it  -Using  distributed  architectures  when  performing  the  training  -Working  with  Jupyter  notebooks  -Serving  the  model  \r\nThe  presentation  will  introduce  how  you  can  use  the  platform  to  build  the  models  and  deploy  it  to  fit  the  computation  environment.  After  the  talk  the  audience  will  know  how  to  start  their  adventure  when  creating,  training  and  publishing  the  models  using  the  advantages  of  distributed  architectures.  ",
+              "startsAt": "2018-12-01T13:30:00",
+              "endsAt": "2018-12-01T14:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "0605c01a-b681-4c54-ae02-6827d414b954",
+                  "name": "Barbara Fusinska"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12204,
+                      "name": "Cloud & Machine Learning"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12140,
+                      "name": "Intermediate"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12343,
+                      "name": "Machine Learning"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2124,
+              "room": "Cloud and ML Track"
+            },
+            "index": 0
+          },
+          {
+            "id": 2125,
+            "name": "Web Track",
+            "session": {
+              "id": "64617",
+              "title": "Improving User Experience With Web Workers",
+              "description": "Web browsers use single threaded JavaScript to perform tasks; business logic, layout, reflows, and garbage collection. This means complex and heavy JavaScript functions can block the main thread from rendering. This results in low frame rates and low interactivity for things like scrolling and input, providing a poor user experience. In this talk James will explore the idea of using Web Workers to free the main thread for rendering for performant and smooth web applications. ",
+              "startsAt": "2018-12-01T13:30:00",
+              "endsAt": "2018-12-01T14:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "9b5522a9-6406-42a8-a712-aa6de4a8a031",
+                  "name": "James Milner"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12203,
+                      "name": "Web"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12140,
+                      "name": "Intermediate"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12341,
+                      "name": "Web"
+                    },
+                    {
+                      "id": 12348,
+                      "name": "UI/UX"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2125,
+              "room": "Web Track"
+            },
+            "index": 1
+          },
+          {
+            "id": 2126,
+            "name": "Mobile Track",
+            "session": {
+              "id": "67626",
+              "title": "App signing by Google Play beyond Android App Bundles",
+              "description": "App signing by Google Play is often seen as a hefty price to pay to get all the advantages offered by Android App Bundles. You want the smaller APKs for your user and the support for dynamic modules that Android App Bundles offers, but the main concern is that you lose control of your signing keys to Google!\r\n\r\nIn this talk I’m going to explain what problem app signing by Google Play is solving, how it integrates in the Android App Bundle story and what are the gotchas and the edge cases that you need to consider when opting-in to app signing by Google Play.\r\n\r\nApp signing by Google Play is not just available for Android App Bundles. If you’re deploying APKs you can still benefit from this feature. You can improve the security of your releases maintaining all the control that you’ve today (and you’ll be ready to smoothly move to an Android App Bundles tomorrow)!\r\n",
+              "startsAt": "2018-12-01T13:30:00",
+              "endsAt": "2018-12-01T14:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "e5941ea5-5a10-45a0-903b-f642db802a16",
+                  "name": "Pietro Maggi"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12202,
+                      "name": "Mobile"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12292,
+                      "name": "Introductory / Overview"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12340,
+                      "name": "Android"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2126,
+              "room": "Mobile Track"
+            },
+            "index": 2
+          },
+          {
+            "id": 2127,
+            "name": "Assistant Track",
+            "session": {
+              "id": "68184",
+              "title": "Building conversational interfaces for Google Hangouts Chat bots and more with Google Dialogflow",
+              "description": "Bots don't have to be dumb, with Google Dialogflow you can apply a little AI to give your users a way to interact with your bot using conversational interfaces. In this talk I'll demonstrate how you can make a completely free Google Hangouts Chat bot that can interpret intent and extract parameters from conversations. As part of this I'll show you how you can use Dialogflow in Google Apps Script, a serverless JavaScript runtime for G Suite automation, extension, and integration. Combining Google Apps Script and Dialogflow also open up opportunities to add conversational interfaces beyond Google Hangouts Chat bots.",
+              "startsAt": "2018-12-01T13:30:00",
+              "endsAt": "2018-12-01T14:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "a0a3ba4d-611e-4ce3-964c-3c0137a97732",
+                  "name": "Martin Hawksey"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 13765,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12292,
+                      "name": "Introductory / Overview"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12342,
+                      "name": "Cloud"
+                    },
+                    {
+                      "id": 12343,
+                      "name": "Machine Learning"
+                    },
+                    {
+                      "id": 12348,
+                      "name": "UI/UX"
+                    },
+                    {
+                      "id": 12341,
+                      "name": "Web"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2127,
+              "room": "Assistant Track"
+            },
+            "index": 3
+          }
+        ]
+      },
+      {
+        "slotStart": "14:10:00",
+        "rooms": [
+          {
+            "id": 2124,
+            "name": "Cloud and ML Track",
+            "session": {
+              "id": "67856",
+              "title": "TensorLayer: A Versatile Deep Learning Library for Developers and Scientists",
+              "description": "TensorLayer is a popular open-source TensorFlow-based deep learning and reinforcement library incubated by researchers from Imperial College London. It provides rich neural layers, pre-trained neural networks, data processing, model management and distributed training to facilitate the development of a wide spectrum of deep learning algorithms. TensorLayer has a transparent and flexible programming model, and thus suitable to customise deep neural networks for deployment and research purposes. It exhibits superior performance due to the low-cost integration with the TensorFlow backend. TensorLayer is easy to learn by providing massive tutorials, examples and real-world application codes. Since open-sourced in 2017, it has attracted more than 100,000 downloads, 4000 stars on Github, and 70 contributors around the world. TensorLayer is recently awarded the 2017 best open-source software by the prestigious ACM multimedia community.",
+              "startsAt": "2018-12-01T14:10:00",
+              "endsAt": "2018-12-01T14:40:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "6444498e-0836-4c73-bfe4-8db8df5946ea",
+                  "name": "Luo Mai"
+                },
+                {
+                  "id": "463231ad-5d0c-4516-a614-d4dc638c991d",
+                  "name": "Jingqing Zhang"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12204,
+                      "name": "Cloud & Machine Learning"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12140,
+                      "name": "Intermediate"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12343,
+                      "name": "Machine Learning"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2124,
+              "room": "Cloud and ML Track"
+            },
+            "index": 0
+          },
+          {
+            "id": 2125,
+            "name": "Web Track",
+            "session": {
+              "id": "64276",
+              "title": "Building your own Google Keep clone powered by Firebase",
+              "description": "Join me on an adventure cloning the famous Google Keep app taking advantage of Angular v6 and Firebase features.\r\nFollowing this talk, you will learn Angular CLI tips, Angular Best Practices including TypeScript and Modern JavaScript, Material Design for the UI components, AngularFire, and tons of Firebase awesomeness.\r\n\r\nIn a nutshell, it will cover:\r\n🔒 Authentication with Google\r\n✏️ Notes management using Firestore\r\n🎈 Activity using the Realtime Database\r\n🌈 Cloud Functions for advanced techniques including image thumbnails and sub-collections removal\r\n🖼️ Cloud Storage for the built-in gallery section inside of each note\r\n🌩️ Cloud Messaging to send push notifications when a new collaborator is added to a note\r\n🌟 And of course, Firebase Hosting which provides a fast and secure web hosting\r\n\r\nDid I mention it is a Progressive Web App? 🚀",
+              "startsAt": "2018-12-01T14:10:00",
+              "endsAt": "2018-12-01T14:40:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "388bc8cc-a97f-44b9-bb2c-32d6cc6a407f",
+                  "name": "Juarez Filho"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12203,
+                      "name": "Web"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12140,
+                      "name": "Intermediate"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12345,
+                      "name": "Firebase"
+                    },
+                    {
+                      "id": 12342,
+                      "name": "Cloud"
+                    },
+                    {
+                      "id": 12341,
+                      "name": "Web"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2125,
+              "room": "Web Track"
+            },
+            "index": 1
+          },
+          {
+            "id": 2127,
+            "name": "Assistant Track",
+            "session": {
+              "id": "68171",
+              "title": "Learning to play the guitar with Actions on Google",
+              "description": "Actions on Google is a fascinating platform that allows us to create conversational experiences. These experiences can cater for many use cases, allowing us to build conversation tools using both audio and visual means - allowing us to create interactions which are accessible to many users with different needs.\r\n\r\nIn this session, we’ll be exploring the Actions on Google platform, the components available to use in the Actions SDK and how we can use Dialogflow to learn how we can create a conversational guitar tutor for Google Actions.",
+              "startsAt": "2018-12-01T14:10:00",
+              "endsAt": "2018-12-01T14:40:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "22a0842d-51da-43e2-a5f2-b48893ae49f4",
+                  "name": "Joe Birch"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 13765,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12292,
+                      "name": "Introductory / Overview"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12347,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2127,
+              "room": "Assistant Track"
+            },
+            "index": 3
+          }
+        ]
+      },
+      {
+        "slotStart": "14:50:00",
+        "rooms": [
+          {
+            "id": 2126,
+            "name": "Mobile Track",
+            "session": {
+              "id": "66803",
+              "title": "Creating ML-powered applications",
+              "description": "Each day we are hearing yet another application that announces a new cool feature powered by machine learning. It’s pretty exciting but when the time comes to deep diving into machine learning, it can be intimidating, especially if you don’t have machine learning background.  \r\n\r\nIn this session, you will get the gist of newly announced MLKit & Tensorflow Lite. We'll be learning about MLKit features and creating custom Tensorflow model and using it in app via MLKit   ",
+              "startsAt": "2018-12-01T14:50:00",
+              "endsAt": "2018-12-01T15:20:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "c74ddde6-86e7-4b92-ad12-1a1428fb2eb9",
+                  "name": "Buşra Deniz Akın"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12202,
+                      "name": "Mobile"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12292,
+                      "name": "Introductory / Overview"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12340,
+                      "name": "Android"
+                    },
+                    {
+                      "id": 12343,
+                      "name": "Machine Learning"
+                    },
+                    {
+                      "id": 12345,
+                      "name": "Firebase"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2126,
+              "room": "Mobile Track"
+            },
+            "index": 2
+          },
+          {
+            "id": 2127,
+            "name": "Assistant Track",
+            "session": {
+              "id": "67756",
+              "title": "Building assistive apps with App Actions",
+              "description": "In 2017, Google announced app predictions: 5 apps that are suggested to you on the App Drawer with a 60% prediction rate. This year, they are taking it to the next level: trying to predict the action that you are going to make at a specific time, depending on the context you're currently in and by analyzing your usage patterns based on machine learning algorithms that run locally on your phone. Those actions can be, for example, continue listening to Spotify if you plug in your headphones or call your best friend on friday nights. In this talk, I'll show how developers can take advantage of this concept by declaring the actions that your app does so Google can index it and suggest it to your users at the right time. I'll end by explaining that a building block of App Actions - Built-in Intents, can be then used to create a Conversational Action r the Google Assistant.",
+              "startsAt": "2018-12-01T14:50:00",
+              "endsAt": "2018-12-01T15:20:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "7c888e22-f254-4e04-aa56-1853ab18c000",
+                  "name": "Elaine Dias Batista"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 13765,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12140,
+                      "name": "Intermediate"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12340,
+                      "name": "Android"
+                    },
+                    {
+                      "id": 12347,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2127,
+              "room": "Assistant Track"
+            },
+            "index": 3
+          }
+        ]
+      },
+      {
+        "slotStart": "15:30:00",
+        "rooms": [
+          {
+            "id": 2126,
+            "name": "Mobile Track",
+            "session": {
+              "id": "66192",
+              "title": "Kotlin DSL magic for Augmented Reality",
+              "description": "With ARCore and Sceneform we can easily create super cool augmented reality applications without passing through the OpenGL dark arts...but we can do more. Just with Kotlin DSL magic we can develop a clean and expressive way to add virtual elements to the reality canvas. In this talk you will learn how to create a Kotlin DSL to build Android AR apps fueled by ARCore and Sceneform. ",
+              "startsAt": "2018-12-01T15:30:00",
+              "endsAt": "2018-12-01T16:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "106dc281-fe8b-40ac-b16b-240832b27b47",
+                  "name": "Giovanni Laquidara"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 12202,
+                      "name": "Mobile"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12140,
+                      "name": "Intermediate"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12340,
+                      "name": "Android"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2126,
+              "room": "Mobile Track"
+            },
+            "index": 2
+          },
+          {
+            "id": 2127,
+            "name": "Assistant Track",
+            "session": {
+              "id": "67730",
+              "title": "The Assistant on Your Device",
+              "description": "There's a reason that more and more devices add a voice interface. With the Assitant SDK it's possible to use the Google Asssitant for this. \r\n\r\nIn this session you will learn about how to connect your device to the Google service, how the API is structured and how best to use it. One sample makes use of Android Things - but you can other embedded operating systems as well. And, finally, you can also add device specific actions tailored for your device. ",
+              "startsAt": "2018-12-01T15:30:00",
+              "endsAt": "2018-12-01T16:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "e44ff6d6-9784-4a3c-bd27-4594ac40b23c",
+                  "name": "Wolfram Rittmeyer"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 2555,
+                  "name": "Track",
+                  "categoryItems": [
+                    {
+                      "id": 13765,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 2556,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 12140,
+                      "name": "Intermediate"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 2598,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 12347,
+                      "name": "Assistant"
+                    }
+                  ],
+                  "sort": 1004
+                }
+              ],
+              "roomId": 2127,
+              "room": "Assistant Track"
+            },
+            "index": 3
+          }
+        ]
+      }
+    ]
+  }
+]
