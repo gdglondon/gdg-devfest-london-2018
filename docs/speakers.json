@@ -1,0 +1,666 @@
+[
+  {
+    "id": "ed5cdb60-eb09-49bc-af9c-a1df24e0c921",
+    "firstName": "Adi",
+    "lastName": "Mazor Kario",
+    "fullName": "Adi Mazor Kario",
+    "bio": "Adi is a Senior UX expert, Product and Voice Designer. She is also a Google mentor and expert in the future of technology. She is the owner and CEO of Wizard Product Design & UX. \r\nWith more than 17 years of experience, Adi created projects for fortune 500 companies, like Intel and IBM in parallel to smaller companies and startups by guiding them from idea and strategy to an amazing user experience that sells more.\r\nSince 2016 Adi has been teaching and practicing Voice UX and she enjoys being part of the future. She believes Voice Design is the most exciting & promising fields of User Experience today!  \r\nJoin my LinkedIn: https://www.linkedin.com/in/adimazorkario/\r\n",
+    "tagLine": "MSc Cognitive Science, GDE, Sprint Master, Experience Expert.",
+    "profilePicture": "https://sessionize.com/image?f=bfd1463b5c73faf3659c018b4f62e2e6,400,400,True,False,60-eb09-49bc-af9c-a1df24e0c921.f4cbdca0-ebbf-4871-9970-4fb4985594a8.jpg",
+    "sessions": [
+      {
+        "id": 66475,
+        "name": "Talk to me:  The future of technology &  tips for Voice UX"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/AdiMazorKario",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/adimazorkario/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://medium.com/@adi.mazor.kario",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.wizardui.com/",
+        "linkType": "Company_Website"
+      }
+    ]
+  },
+  {
+    "id": "961f895c-9bed-41fa-b4d4-9615b451a186",
+    "firstName": "Aygul",
+    "lastName": "Zagidullina",
+    "fullName": "Aygul Zagidullina",
+    "bio": "Dr. Aygul Zagidullina is a Google Developer Expert (GDE) for Assistant based in London, UK. Her work experience includes Google, Todoist, MotaWord. She holds a PhD in quantum chemistry and prior to Google dedicated 6 years to scientific research at the University of Stuttgart. Aygul is a very active member of the London digital ecosystem and has been involved in many innovative projects. She is a Google Developer Group (GDG)/ Women Techmakers (WTM) London lead, Google Top Contributor (TC)/ Trusted Tester (TT), and UK STEM Ambassador. Aygul has been a distinguished speaker at numerous international industry events in the US (at Google HQ), UK, Germany, Ireland, UAE, Greece, Turkey, Poland, Georgia, and Russia. She was named as one of The NEXT 100 Top Influencers of the European Digital Industry in 2013.",
+    "tagLine": "Actions on Google Developer, GDG/WTM London Lead",
+    "profilePicture": "https://sessionize.com/image?f=8de6aa0785f4d731a60f3a586dca2d38,400,400,True,False,5c-9bed-41fa-b4d4-9615b451a186.835be137-8e98-4848-ad09-a1320ca082e8.jpg",
+    "sessions": [
+      {
+        "id": 67800,
+        "name": "Zero to App: Building for the Google Assistant Using Dialogflow and Firebase"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/aygul",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "Company Website",
+        "url": "http://www.aygul.co/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "http://www.linkedin.com/in/aygulzagidullina",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://medium.com/google-assistant",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "id": "0605c01a-b681-4c54-ae02-6827d414b954",
+    "firstName": "Barbara",
+    "lastName": "Fusinska",
+    "fullName": "Barbara Fusinska",
+    "bio": "Barbara is a Strategic Cloud Engineer with strong software development background. While working with a variety of different companies, she gained experience in building diverse software systems. This experience brought her focus to the Data Science and Big Data field. She believes in the importance of the data and metrics when growing a successful business.\r\n\r\nAlongside collaborating around data architectures, Barbara still enjoys programming activities. Currently speaking at conferences in-between working in London. Tweets at @BasiaFusinska and blogs on http://barbarafusinska.com",
+    "tagLine": "Machine Learning Cloud Engineer",
+    "profilePicture": "https://sessionize.com/image?f=5d611bfa814cb529aa76b5362c0400fa,400,400,True,False,1a-b681-4c54-ae02-6827d414b954.f7b47fb0-62b6-4e58-99c9-d2455614b4ee.jpg",
+    "sessions": [
+      {
+        "id": 68664,
+        "name": "Scalable Machine  Learning  with  Kubeflow"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/basiafusinska",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/barbarafusinska/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "http://barbarafusinska.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "http://google.com",
+        "linkType": "Company_Website"
+      }
+    ]
+  },
+  {
+    "id": "c74ddde6-86e7-4b92-ad12-1a1428fb2eb9",
+    "firstName": "Buşra",
+    "lastName": "Deniz Akın",
+    "fullName": "Buşra Deniz Akın",
+    "bio": "Buşra Deniz Akin is a Software Engineer who has a keen interest in developing high-quality mobile applications. Currently, she’s working for The App Business.\u2028\r\n\r\nBesides being co-organizer in two different communities, Google Developer Group and WomenTechMakers London, she enjoys voluntarily organising and speaking at developer events.  She believes in sharing knowledge and collaborating with the other people through these events, will come hand in hand with innovation and new perspectives. ",
+    "tagLine": "Android Dev @TAB, Lead @GDGLondon & @WTMLondon ",
+    "profilePicture": "https://sessionize.com/image?f=43762e014edb25b83327ed7cb92420b4,400,400,True,False,b8968e37-c867-400f-8c2b-185384e2b47b.jpg",
+    "sessions": [
+      {
+        "id": 66803,
+        "name": "Creating ML-powered applications"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/busradeniz",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/busradeniz/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "http://busradeniz.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.theappbusiness.com/",
+        "linkType": "Company_Website"
+      }
+    ]
+  },
+  {
+    "id": "918a46f2-7e34-41b6-8337-56703cb18e82",
+    "firstName": "Doug",
+    "lastName": "Stevenson",
+    "fullName": "Doug Stevenson",
+    "bio": "Doug is a veteran engineer, experienced public speaker, and developer advocate at Google with the Firebase team.  He's been developing for Android since the very first Android device was on the market, and has bootstrapped the efforts of silicon valley startups.  Outside of work, Doug follows professional ice hockey and enjoys craft beer.",
+    "tagLine": "Developer Advocate at Google",
+    "profilePicture": "https://sessionize.com/image?f=63057f5392a603ac63f7088f677692b0,400,400,True,False,f2-7e34-41b6-8337-56703cb18e82.565eacfa-1b10-4abf-b390-2a610e35ca64.jpg",
+    "sessions": [
+      {
+        "id": 68227,
+        "name": "Go “serverless” with Cloud Functions for Firebase"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/CodingDoug",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://firebase.google.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/codingdoug/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://medium.com/@CodingDoug",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "id": "7c888e22-f254-4e04-aa56-1853ab18c000",
+    "firstName": "Elaine",
+    "lastName": "Dias Batista",
+    "fullName": "Elaine Dias Batista",
+    "bio": "Elaine has been working with mobile apps development for the past 6 years. Since the launch of the Google Assistant, she has been following the developments around that area. She truly believes that interacting with technology using natural language will define the future of computing. Born and raised in Brazil, she's been living in France since 2004 and loves everything multicultural. She's a GDE for the Google Assistant.",
+    "tagLine": "Team Leader at SFEIR",
+    "profilePicture": "https://sessionize.com/image?f=aff23e9b01bf4c46476f522a9494d2ac,400,400,True,False,dbca3b62-3787-48f7-a6c8-2d2b70ddd0e5.jpg",
+    "sessions": [
+      {
+        "id": 67756,
+        "name": "Building assistive apps with App Actions"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/elainedbatista",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/elaine-dias-batista-25517520/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://sfeir.com/",
+        "linkType": "Company_Website"
+      }
+    ]
+  },
+  {
+    "id": "106dc281-fe8b-40ac-b16b-240832b27b47",
+    "firstName": "Giovanni",
+    "lastName": "Laquidara",
+    "fullName": "Giovanni Laquidara",
+    "bio": "Android engineer at TUI with a past of 12 years’ experience building Object Oriented, real-time, and mobile applications. Super passionate about Android development, VR/AR and AI. Take part in many IT communities as an active member/leader, becoming Technical Leader of GDG-Rome and Mobile Tea, Facebook DevCircle\r\n\r\nI’m having fun as a speaker in many IT and developer conferences, like Codemotion, Droidcon.",
+    "tagLine": "Android engineer, VR/AR lovah",
+    "profilePicture": "https://sessionize.com/image?f=34a3744de6d6d1c8ab87e36c3e7e259d,400,400,True,False,fd5396e7-c297-4b92-b7e3-04615bf1c344.jpg",
+    "sessions": [
+      {
+        "id": 66192,
+        "name": "Kotlin DSL magic for Augmented Reality"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Company Website",
+        "url": "http://www.laquysoft.com/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/joaolaq",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "Blog",
+        "url": "http://www.laquysoft.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/glaquidara/",
+        "linkType": "LinkedIn"
+      }
+    ]
+  },
+  {
+    "id": "9b5522a9-6406-42a8-a712-aa6de4a8a031",
+    "firstName": "James",
+    "lastName": "Milner",
+    "fullName": "James Milner",
+    "bio": "James is a fullstack software developer with a history of building immersive web applications with both corporates and startups. His background is in geospatial technologies for which he still has a passion. He is a fan of all things web development, particularly frontend with a penchant for exploring the potentials of the platform. During working life he spends time considering user experience patterns, building UIs and mulling over performance. Out of work James maintains an active blog chronicling his adventures into web development, and is a speaker at London development meetups and beyond. Alongside his technological pursuits he is a mediocre acoustic guitarist, fitness enthusiast and a big fan of coffee and burritos (not together).",
+    "tagLine": "Software Engineer working remotely at SitePen",
+    "profilePicture": "https://sessionize.com/image?f=74b2f7b761f756b5ff65da520ba1e601,400,400,True,False,b5e002ff-30ec-4d1b-a342-6744eeae583e.jpg",
+    "sessions": [
+      {
+        "id": 64617,
+        "name": "Improving User Experience With Web Workers"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://www.twitter.com/JamesLMilner",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.loxodrome.io",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "id": "463231ad-5d0c-4516-a614-d4dc638c991d",
+    "firstName": "Jingqing",
+    "lastName": "Zhang",
+    "fullName": "Jingqing Zhang",
+    "bio": null,
+    "tagLine": null,
+    "profilePicture": "https://sessionize.com/image?f=95dee546e7e6b07fae579edb2e21a0f4,400,400,True,False,174bd05e-388d-4eff-8c3f-50e369135876.jpg",
+    "sessions": [
+      {
+        "id": 67856,
+        "name": "TensorLayer: A Versatile Deep Learning Library for Developers and Scientists"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": []
+  },
+  {
+    "id": "22a0842d-51da-43e2-a5f2-b48893ae49f4",
+    "firstName": "Joe",
+    "lastName": "Birch",
+    "fullName": "Joe Birch",
+    "bio": "Hi, my names Joe. I’m an Android Engineer and Google Developer Expert for Android, Google Pay and Flutter based in Brighton, UK working on the Android team at Buffer. I’m passionate about coding and love creating robust, polished and exciting projects for mobile, the web, TV, wearables and I’ll probably be toying with whatever the new thing is at the time you’re reading this – I love to be constantly learning. I’m also a keen writer as I love to share my learnings and experiences with others.",
+    "tagLine": "Senior Engineer @ Buffer",
+    "profilePicture": "https://sessionize.com/image?f=72a66151c70ed7a4499c7bda8d45b0e3,400,400,True,False,36905613-03bb-4a98-8405-c07b923f1414.jpg",
+    "sessions": [
+      {
+        "id": 68171,
+        "name": "Learning to play the guitar with Actions on Google"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/hitherejoe",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "Blog",
+        "url": "https://medium.com/@hitherejoe",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "id": "388bc8cc-a97f-44b9-bb2c-32d6cc6a407f",
+    "firstName": "Juarez",
+    "lastName": "Filho",
+    "fullName": "Juarez Filho",
+    "bio": "Juarez is passionate about traveling and also to tell his adventures with Web Technologies and Google Products. In 2016 he got a Google Developer Expert nomination to keep helping communities to learn, discover and have fun with Web Technologies.",
+    "tagLine": "Google Developer Expert",
+    "profilePicture": "https://sessionize.com/image?f=629b1af740d7ad75f3b325aa5545f272,400,400,True,False,cc-a97f-44b9-bb2c-32d6cc6a407f.d6155495-c3f9-4048-9e31-303fd47d04be.jpg",
+    "sessions": [
+      {
+        "id": 64276,
+        "name": "Building your own Google Keep clone powered by Firebase"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/juarezpaf",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/juarezpaf",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.fullstackfirebase.com",
+        "linkType": "Company_Website"
+      }
+    ]
+  },
+  {
+    "id": "687de707-ffa6-4421-af42-f71b9f40bade",
+    "firstName": "Kaan",
+    "lastName": "Mamikoglu",
+    "fullName": "Kaan Mamikoglu",
+    "bio": "Kaan is a mobile software engineer at MyDrive Solutions, a Generali company, in London, UK. As an active community builder, he has co-organized a lot of developer events in the UK and Turkey such as DevFests, Android Developer Days’, Android Study Jams, and has been a distinguished speaker at many international industry events in the US, UK, UAE, Turkey and Georgia. Besides being a Google Developer Group (GDG) London co-organizer, he is a Google Top Contributor (TC) and a Google Local Guide. Kaan is passionate about exploring new technologies and traveling around the world.",
+    "tagLine": "Mobile Software Engineer @ MyDrive Solutions",
+    "profilePicture": "https://sessionize.com/image?f=99cbd7bc29ebf8f620ef0b93f1f90c86,400,400,True,False,07-ffa6-4421-af42-f71b9f40bade.8f62db66-efba-4461-8b77-fde1a4f4e197.jpg",
+    "sessions": [
+      {
+        "id": 67800,
+        "name": "Zero to App: Building for the Google Assistant Using Dialogflow and Firebase"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "http://twitter.com/kaanmamikoglu",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/iamkaan/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://medium.com/@iamkaan",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "id": "6444498e-0836-4c73-bfe4-8db8df5946ea",
+    "firstName": "Luo",
+    "lastName": "Mai",
+    "fullName": "Luo Mai",
+    "bio": "Dr. Luo Mai is a research associate at the Imperial College London working on large-scale machine learning and real-time processing systems. Luo is the recipient of the Google Fellowship in Cloud Computing, and the core contributor of TensorLayer. He obtained his PhD from Imperial College London in 2018. Luo was also a visiting researcher at the Cloud and Information Services Lab, Microsoft Research between 2015 and 2018.",
+    "tagLine": "Researcher, Imperial College London",
+    "profilePicture": "https://sessionize.com/image?f=efb3abdcbdeaca36f667393f880f1c9c,400,400,True,False,8e-0836-4c73-bfe4-8db8df5946ea.a6498a0a-0514-4d0d-8b04-cc7f6289358b.jpg",
+    "sessions": [
+      {
+        "id": 67856,
+        "name": "TensorLayer: A Versatile Deep Learning Library for Developers and Scientists"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/luo-mai-72253242/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "http://www.imperial.ac.uk",
+        "linkType": "Company_Website"
+      }
+    ]
+  },
+  {
+    "id": "89c328f9-4df6-41f7-a534-be96ecd67948",
+    "firstName": "Mark",
+    "lastName": "Allison",
+    "fullName": "Mark Allison",
+    "bio": "Mark Allison is a GDE for both Android and Kotlin and is software engineer with over 30 years’ experience. He is passionate about providing the user with the best possible experience. He has developed both server and client side, most commonly Android on the client side, but also for iOS, HTML5, Symbian, and J2ME.\r\n\r\nMark writes a technical blog (http://blog.stylingandroid.com) which focuses on Android UI/UX topics, but often covers more general Android development techniques.\r\n\r\nWhen not being geeky, Mark likes to unwind by hurling abuse at football referees, specifically those who are unkind to his beloved Watford FC with whom he holds a season ticket. Mark also loves single malt whisky. Buy him one and you’ll have a friend for life!",
+    "tagLine": "Android bit herder & author of https://blog.stylingandroid.com",
+    "profilePicture": "https://sessionize.com/image?f=b81c8c6b917ead213806a46b59645149,400,400,True,False,f9-4df6-41f7-a534-be96ecd67948.d0a56780-5f31-4afd-bfa1-b157160c48ea.jpg",
+    "sessions": [
+      {
+        "id": 67644,
+        "name": "wow. very vector. such love"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/MarkIAllison",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "Blog",
+        "url": "https://blog.stylingandroid.com",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "id": "a0a3ba4d-611e-4ce3-964c-3c0137a97732",
+    "firstName": "Martin",
+    "lastName": "Hawksey",
+    "fullName": "Martin Hawksey",
+    "bio": "Martin has held advisory roles within the UK educational technology sector for a number of government-funded services. In these roles, he has supported staff in the exploration and adoption of innovative approaches to teaching and learning. Martin was also an early adopter of Google Apps Script and this tool regularly features in the solutions he publishes and often integrates with other Google products, such as Google Maps, Google Charts and Google Analytics.\r\n\r\nAs Chief Innovation, Technology and Community Officer at the Association for Learning Technology (ALT) his work continues to focus on how Google services can be used to support the development of ALT's member community.",
+    "tagLine": "@mhawksey ... GDE Google Apps Script",
+    "profilePicture": "https://sessionize.com/image?f=c0b870df180a60c0ddd815aee6c7f979,400,400,True,False,164ff6dd-7e62-43a3-88a8-c2bdf47e23c5.jpg",
+    "sessions": [
+      {
+        "id": 68184,
+        "name": "Building conversational interfaces for Google Hangouts Chat bots and more with Google Dialogflow"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/mhawksey",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mhawksey/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://mashe.hawksey.info",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://alt.ac.uk",
+        "linkType": "Company_Website"
+      }
+    ]
+  },
+  {
+    "id": "5ab174f8-77bf-4bdb-a7af-cb1a4532c136",
+    "firstName": "Mustafa",
+    "lastName": "Kurtuldu",
+    "fullName": "Mustafa Kurtuldu",
+    "bio": "Mustafa is a Design Advocate at Google, which involves supporting designers worldwide create wonderful user experiences with Material Design, Progressive Web Apps and Google Design Sprints.\r\n\r\nHe has over seventeen years experience working as a UX Designer across multiple sectors including publishing, charities, central Government, education and finance, with a variety of organisations including News International, Middlesex University, The Metro Newspaper, Times London, BBC/Arts Council of England & Macmillan Publishing.",
+    "tagLine": "Design Advocate at Google",
+    "profilePicture": "https://sessionize.com/image?f=b5e48221e611d5c708ee35fa1ff9799f,400,400,True,False,86072adb-428d-4b54-b361-1d8edabdfa3e.jpg",
+    "sessions": [
+      {
+        "id": 66811,
+        "name": "Designing for speed and hacking users perception"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/Mustafa_x",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mustafa-kurtuldu-9b0b63/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://medium.com/@mustafa_x",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "http://www.google.com",
+        "linkType": "Company_Website"
+      }
+    ]
+  },
+  {
+    "id": "715d0e2a-665f-457c-88f1-72429cd1cf23",
+    "firstName": "Niamh",
+    "lastName": "Power",
+    "fullName": "Niamh Power",
+    "bio": "Niamh is a mobile engineer at the challenger bank, Monzo, in the UK. She works on both iOS and Android and loves to be able to share insights between platforms. In her spare time, she loves to do anything outdoors, from white water rafting to rock climbing.\r\n\r\nShe also organises the community group GDG Liverpool and helped found the Swift Society. She also regularly runs workshops for Women Who Code and InnovateHer.",
+    "tagLine": "Mobile Engineer at Monzo",
+    "profilePicture": "https://sessionize.com/image?f=c144dd1307c5bdefa7b0193da89e76bf,400,400,True,False,2a-665f-457c-88f1-72429cd1cf23.03dfb4f2-f35d-44d1-8ec3-30e09c5a7cac.jpg",
+    "sessions": [
+      {
+        "id": 67270,
+        "name": "Flutter & Firebase - a match made in heaven?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "http://www.twitter.com/niamh__power",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.monzo.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/niamhpower93/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "http://medium.com/@niamhpower",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "id": "e5941ea5-5a10-45a0-903b-f642db802a16",
+    "firstName": "Pietro",
+    "lastName": "Maggi",
+    "fullName": "Pietro Maggi",
+    "bio": "In the Android Developer Relations team Pietro’s focus is to provide an awesome developer experience around Play technologies like Android Vitals and Android App Bundles.",
+    "tagLine": "Android Developer Advocate",
+    "profilePicture": "https://sessionize.com/image?f=e45f576d53c9a2f465977a8af9126c77,400,400,True,False,a5-5a10-45a0-903b-f642db802a16.426000d4-041e-4d81-81cf-e89e350542ad.jpg",
+    "sessions": [
+      {
+        "id": 67626,
+        "name": "App signing by Google Play beyond Android App Bundles"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/pfmaggi",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://developer.android.com/",
+        "linkType": "Company_Website"
+      }
+    ]
+  },
+  {
+    "id": "c6bd52ea-8735-443a-93de-beba41e3ca02",
+    "firstName": "Sofiya",
+    "lastName": "Huts",
+    "fullName": "Sofiya Huts",
+    "bio": "Sofia has been working as Software Engineer for more than 4 years and she is really passionate about web technologies. Contributor to open source projects built with Polymer, Firebase and now working closely with React. Based now in Prague, Sofiya is still managing a GDG Lviv in Ukraine. Additionally, co-organising GDG DevFest Ukraine (https://devfest.gdg.org.ua/).",
+    "tagLine": "Software Engineer at Microsoft",
+    "profilePicture": "https://sessionize.com/image?f=9d387522980419111da2f2bb4836a7e3,400,400,True,False,fb62475b-a23f-4b33-a65a-482193364680.jpg",
+    "sessions": [
+      {
+        "id": 64250,
+        "name": "Web Accessibility? - Never heard."
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/sophie_h29",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sofiya-huts-4b314a9a",
+        "linkType": "LinkedIn"
+      }
+    ]
+  },
+  {
+    "id": "e44ff6d6-9784-4a3c-bd27-4594ac40b23c",
+    "firstName": "Wolfram",
+    "lastName": "Rittmeyer",
+    "fullName": "Wolfram Rittmeyer",
+    "bio": "Wolfram is an Android developer since 2012 and has been blogging about it ever since. He’s very active in the Android community, likes to speak at devfests and conferences and is co-organizer of the GDG, Düsseldorf. He's an Google Developer Expert for Android.\r\n\r\nOf course not everything is tech. As a family guy Wolfram is a proud father of his two sons Linus and Niklas. Funnily they are also a nice source of inspiration when it comes to new ideas for tech use.",
+    "tagLine": "Tech is just a means to an end",
+    "profilePicture": "https://sessionize.com/image?f=9e536721d52a1d5f47e63fd5738a2118,400,400,True,False,c900220c-7712-4c8f-aded-52aeba8a278f.jpg",
+    "sessions": [
+      {
+        "id": 67730,
+        "name": "The Assistant on Your Device"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/RittmeyerW",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/wolfram-rittmeyer/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.grokkingandroid.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.wolfram-rittmeyer.de",
+        "linkType": "Company_Website"
+      }
+    ]
+  }
+]
