@@ -1,13 +1,37 @@
 import { initializeFirebase, firestore } from './firebase-config';
-import schedule from '../docs/schedule.json';
-import speakers from '../docs/speakers.json';
+import 'isomorphic-fetch';
 
-const importSpeakers = () => {
-  console.log('\tImporting', Object.values(speakers).length, 'speakers...');
+const sessionizeApiId = 'dnnxqlwi';
+const sessionizeRoot = 'https://sessionize.com/api/v2';
+const speakersPath = `${sessionizeRoot}/${sessionizeApiId}/view/speakers`;
+const sessionsPath = `${sessionizeRoot}/${sessionizeApiId}/view/gridtable`;
+
+function importSpeakers() {
+  return fetch(speakersPath)
+    .then(response => response.json())
+    .then(data => Object.values(data))
+    .then(speakers => {
+      return importSpeakersForMobile(speakers)
+        .then(_ => importSpeakersForWebsite(speakers));
+    });
+}
+
+function importSessions() {
+  return fetch(sessionsPath)
+    .then(response => response.json())
+    .then(data => Object.values(data))
+    .then(schedule => {
+      return importSessionsForMobile(schedule)
+        .then(_ => importSessionsForWebsite(schedule));
+    });
+}
+
+const importSpeakersForMobile = (speakers) => {
+  console.log('\tImporting', speakers.length, 'speakers...');
 
   const batch = firestore.batch();
 
-  Object.values(speakers).forEach((speaker) => {
+  speakers.forEach((speaker) => {
     const social = [];
     speaker.links.forEach((link) => {
       social.push({
@@ -36,12 +60,12 @@ const importSpeakers = () => {
     });
 };
 
-const importSessions = () => {
+const importSessionsForMobile = (schedule) => {
   console.log('\tImporting sessions...');
 
   const batch = firestore.batch();
 
-  Object.values(schedule).forEach((day) => {
+  schedule.forEach((day) => {
     const rooms = day.rooms;
     rooms.forEach((room, roomIndex) => {
       const sessions = room.sessions;
@@ -83,12 +107,12 @@ const importSessions = () => {
     });
 };
 
-const importSpeakersOld = () => {
-  console.log('\tImporting', Object.values(speakers).length, 'speakers...');
+const importSpeakersForWebsite = (speakers) => {
+  console.log('\tImporting', speakers.length, 'speakers for website...');
 
   const batch = firestore.batch();
 
-  Object.values(speakers).forEach((speaker, index) => {
+  speakers.forEach((speaker, index) => {
     const social = [];
     speaker.links.forEach((link) => {
       social.push({
@@ -114,24 +138,13 @@ const importSpeakersOld = () => {
   });
   return batch.commit()
     .then((results) => {
-      console.log('\tImported data for', results.length, 'speakers');
+      console.log('\tImported data for', results.length, 'speakers for website');
       return results;
     });
 };
 
-function getIconName(title) {
-  switch (title) {
-    case 'Twitter':
-      return 'twitter';
-    case 'LinkedIn':
-      return 'linkedin';
-    default:
-      return 'website';
-  }
-}
-
-const importSessionsOld = () => {
-  console.log('\tImporting sessions...');
+const importSessionsForWebsite = (schedule) => {
+  console.log('\tImporting sessions for website...');
 
   const batch = firestore.batch();
 
@@ -145,7 +158,7 @@ const importSessionsOld = () => {
     },
   );
 
-  Object.values(schedule).forEach((day, dayIndex) => {
+  schedule.forEach((day, dayIndex) => {
     const tracks = Object.values(schedule)[dayIndex].rooms.map(room => room.name);
     let slotArray = [];
     let dateId = '';
@@ -156,15 +169,18 @@ const importSessionsOld = () => {
       let slotEndTime = [];
       let startTime = new Date();
       let emptySlotLength = 0;
+      let crossTrackSession = false;
       sessions.forEach((sessionExtraData, roomIndex) => {
         const session = sessionExtraData.session;
 
-        while (emptySlotLength + roomIndex < tracks.length && sessionExtraData.name !== tracks[emptySlotLength + roomIndex++]) {
+        while (emptySlotLength + roomIndex < tracks.length && sessionExtraData.name !== tracks[emptySlotLength + roomIndex]) {
           slotSessions.push({
             items: ['tba'],
           });
           emptySlotLength++;
         }
+
+        crossTrackSession = session.isPlenumSession;
 
         let tags = [];
         if (session.categories.length > 2) {
@@ -189,7 +205,7 @@ const importSessionsOld = () => {
         slotEndTime = `${endTime.getHours()}:${(endTime.getMinutes() < 10 ? '0' : '')}${endTime.getMinutes()}`;
       });
 
-      while (tracks.length > slotSessions.length) {
+      while (tracks.length > slotSessions.length && !crossTrackSession) {
         slotSessions.push({
           items: ['tba'],
         });
@@ -222,17 +238,27 @@ const importSessionsOld = () => {
       },
     );
   });
-
   return batch.commit()
     .then(results => {
-      console.log('\tImported data for', results.length, 'sessions');
+      console.log('\tImported data for', results.length, 'sessions for website');
       return results;
     });
 };
 
+function getIconName(title) {
+  switch (title) {
+    case 'Twitter':
+      return 'twitter';
+    case 'LinkedIn':
+      return 'linkedin';
+    default:
+      return 'website';
+  }
+}
+
 initializeFirebase()
-  .then(() => importSpeakersOld())
-  .then(() => importSessionsOld())
+  .then(() => importSpeakers())
+  .then(() => importSessions())
   .then(() => {
     console.log('Finished');
     process.exit();
