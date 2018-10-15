@@ -85,7 +85,7 @@ self.addEventListener('message', ({ data }) => {
               timeslot.startTime,
               endTimeRaw,
               subSessionsLen,
-              subSessionIndex + 1,
+              subSessionIndex + 1
             )
             : endTimeRaw;
           const startTime = subSessionsLen > 1 && subSessionIndex > 0
@@ -119,7 +119,7 @@ self.addEventListener('message', ({ data }) => {
             speakers = Object.assign(
               {},
               speakers,
-              updateSpeakersSessions(speakersRaw, subsession.speakers, finalSubSession),
+              updateSpeakersSessions(speakersRaw, subsession.speakers, finalSubSession)
             );
           }
         });
