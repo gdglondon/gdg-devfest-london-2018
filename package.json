@@ -42,7 +42,6 @@
     "eslint-plugin-html": "^4.0.1",
     "eslint-plugin-polymer": "^0.1.0",
     "firebase-admin": "^5.13.1",
-    "firebase-tools": "^3.19.3",
     "gulp": "^4.0.0",
     "gulp-cli": "^2.0.0",
     "gulp-eslint": "^4.0.0",
@@ -53,13 +52,13 @@
     "gulp-replace": "^0.6.1",
     "gulp-run": "^1.7.1",
     "gulp-uglify": "^3.0.0",
+    "isomorphic-fetch": "^2.2.1",
     "merge-stream": "^1.0.1",
     "polymer-build": "^2.1.1",
     "pre-commit": "^1.2.2",
     "require-uncached": "^1.0.3",
     "sw-precache": "^5.2.0",
-    "uglify-es": "^3.3.4",
-    "isomorphic-fetch": "^2.2.1"
+    "uglify-es": "^3.3.4"
   },
   "engines": {
     "node": ">=8.9.4"
