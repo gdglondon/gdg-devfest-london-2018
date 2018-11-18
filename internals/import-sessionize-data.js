@@ -72,7 +72,7 @@ const importSessionsForMobile = (schedule) => {
       sessions.forEach((session) => {
         let tags = [];
         if (session.categories.length > 2) {
-          tags = session.categories[2].categoryItems.map(item => item.name);
+          tags = session.categories[2].categoryItems.map(item => item.name.toLowerCase());
         }
         const sessionData = {
           title: session.title,
