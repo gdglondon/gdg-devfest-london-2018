@@ -60,8 +60,9 @@
         .grid {
           display: grid;
           grid-column-gap: 16px;
-          grid-row-gap: 32px;
-          grid-template-columns: repeat(var(--tracks-number), 1fr);
+          grid-row-gap: 16px;
+          grid-template-columns: repeat(5, 1fr);
+          grid-template-rows: repeat(10, 1fr);
         }
 
         .start-time {
@@ -90,7 +91,7 @@
     <div class="grid" style$="--tracks-number: [[day.tracks.length]];">
       <template is="dom-repeat" items="[[day.timeslots]]" as="timeslot" index-as="timeslotIndex">
 
-        <div id$="[[timeslot.startTime]]" class="start-time" style$="grid-area: [[_getTimePosition(timeslotIndex)]]">
+        <div id$="[[timeslot.startTime]]" class="start-time" style$="grid-area: [[_getTimePosition(timeslot)]]">
           <span class="hours">[[_splitText(timeslot.startTime, ':', 0)]]</span>
           <span class="minutes">[[_splitText(timeslot.startTime, ':', 1)]]</span>
         </div>
@@ -180,8 +181,8 @@
         }
       }
 
-      _getTimePosition(timeslotIndex) {
-        return `${timeslotIndex + 1} / 1`;
+      _getTimePosition(timeslot) {
+        return `${timeslot.gridArea}`;
       }
 
       _splitText(text, divider, index) {

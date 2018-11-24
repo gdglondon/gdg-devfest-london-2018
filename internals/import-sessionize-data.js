@@ -1,4 +1,4 @@
-import { initializeFirebase, firestore } from './firebase-config';
+import {initializeFirebase, firestore} from './firebase-config';
 import 'isomorphic-fetch';
 
 const sessionizeApiId = 'dnnxqlwi';
@@ -164,21 +164,13 @@ const importSessionsForWebsite = (schedule) => {
     let dateId = '';
     day.timeSlots.forEach((slot) => {
       const sessions = slot.rooms;
-      let slotSessions = [];
       let slotStartTime = [];
       let slotEndTime = [];
       let startTime = new Date();
-      let emptySlotLength = 0;
       let crossTrackSession = false;
-      sessions.forEach((sessionExtraData, roomIndex) => {
+      let slotsStarting = [];
+      sessions.forEach(sessionExtraData => {
         const session = sessionExtraData.session;
-
-        while (emptySlotLength + roomIndex < tracks.length && sessionExtraData.name !== tracks[emptySlotLength + roomIndex]) {
-          slotSessions.push({
-            items: ['tba'],
-          });
-          emptySlotLength++;
-        }
 
         crossTrackSession = session.isPlenumSession;
 
@@ -194,40 +186,53 @@ const importSessionsForWebsite = (schedule) => {
         };
         batch.set(
           firestore.collection('sessions').doc(session.id),
-          sessionData,
+          sessionData
         );
-        slotSessions.push({
-          items: [session.id],
-        });
+
         startTime = new Date(session.startsAt);
         slotStartTime = `${startTime.getHours()}:${(startTime.getMinutes() < 10 ? '0' : '')}${startTime.getMinutes()}`;
         const endTime = new Date(session.endsAt);
         slotEndTime = `${endTime.getHours()}:${(endTime.getMinutes() < 10 ? '0' : '')}${endTime.getMinutes()}`;
+
+        let existingSlot = slotsStarting.find(slot => {
+          return slot.startTime === slotStartTime && slot.endTime === slotEndTime;
+        });
+        let trackIndex = tracks.findIndex(track => {
+          return track === sessionExtraData.name
+        });
+        if (existingSlot) {
+          existingSlot.sessions[trackIndex] = {items: [session.id]};
+        } else {
+          let newSlotSessions = new Array(tracks.length).fill(null);
+          newSlotSessions[trackIndex] = {items: [session.id]};
+          if (crossTrackSession) {
+            newSlotSessions = [{items: [session.id]}];
+          }
+          slotsStarting.push(
+            new Slot(slotStartTime, slotEndTime, newSlotSessions)
+          );
+        }
       });
 
-      while (tracks.length > slotSessions.length && !crossTrackSession) {
-        slotSessions.push({
-          items: ['tba'],
-        });
-      }
-
       dateId = `${startTime.getFullYear()}-${(startTime.getMonth() < 10 ? '0' : '')}${startTime.getMonth()}-${(startTime.getDate() < 10 ? '0' : '')}${startTime.getDate()}`;
-      const options = { month: 'long', day: 'numeric' };
+      const options = {month: 'long', day: 'numeric'};
       const readable = startTime.toLocaleDateString('en-US', options);
 
       batch.set(
         firestore.collection('schedule').doc(dateId),
-        { date: dateId },
+        {date: dateId},
       );
       batch.update(
         firestore.collection('schedule').doc(dateId),
-        { dateReadable: readable },
+        {dateReadable: readable},
       );
 
-      slotArray.push({
-        startTime: slotStartTime,
-        endTime: slotEndTime,
-        sessions: slotSessions,
+      slotsStarting.forEach(slot => {
+        slotArray.push({
+          startTime: slot.startTime,
+          endTime: slot.endTime,
+          sessions: slot.sessions
+        });
       });
     });
     batch.update(
@@ -253,6 +258,14 @@ function getIconName(title) {
       return 'linkedin';
     default:
       return 'website';
+  }
+}
+
+class Slot {
+  constructor(startTime, endTime, sessions) {
+    this.startTime = startTime;
+    this.endTime = endTime;
+    this.sessions = sessions;
   }
 }
 
