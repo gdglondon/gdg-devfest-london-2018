@@ -6,9 +6,8 @@ function getTimeDifference(date, startTime, endTime) {
 }
 
 function getTimeslotMinutesFromStart(date, startOfDay, startTime) {
-  const timezone = new Date().toString().match(/([A-Z]+[+-][0-9]+.*)/)[1];
-  const timeDayStart = new Date(date + ' ' + startOfDay + ' ' + timezone).getTime();
-  const timeTimeslotStart = new Date(date + ' ' + startTime + ' ' + timezone).getTime();
+  const timeDayStart = new Date(0, 0, date, startOfDay.split(':')[0], startOfDay.split(':')[1]).getTime();
+  const timeTimeslotStart = new Date(0, 0, date, startTime.split(':')[0], startTime.split(':')[1]).getTime();
   const millis = timeTimeslotStart - timeDayStart;
   return millis / (1000 * 60);
 }
