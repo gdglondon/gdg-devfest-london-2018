@@ -37,6 +37,11 @@
       "route": "team",
       "permalink": "/team/",
       "label": "Team"
+    },
+    {
+      "route": "map",
+      "permalink": "https://firebasestorage.googleapis.com/v0/b/gdg-devfest-london-2018.appspot.com/o/map.pdf?alt=media&token=1c4f1f0c-7add-4d9f-bb76-bd02f8ad4837",
+      "label": "Map"
     }
   ],
   "heroSettings": {
